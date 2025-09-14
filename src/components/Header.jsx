@@ -7,9 +7,12 @@ const Header = () => {
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex-1 md:flex md:items-center md:gap-12">
-            <a className="block text-teal-600 dark:text-teal-300" href="/">
+            <a
+              className="block text-teal-600 dark:text-teal-300"
+              href="/qff-skku/home/"
+            >
               <img
-                src="home/images/logos/skkai.svg"
+                src="/qff-skku/images/logos/skkai.svg"
                 alt="SKKAI Logo"
                 className="h-8"
               />

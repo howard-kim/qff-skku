@@ -6,27 +6,27 @@ export default function Footer() {
       <div className="mx-auto max-w-screen-xl px-4 py-10 sm:px-6 lg:px-8">
         <div className="flex flex-wrap justify-center items-center gap-10">
           <img
-            src="home/images/logos/skku.jpg"
+            src="/qff-skku/images/logos/skku.jpg"
             alt="SKKU"
             className="h-8 object-contain"
           />
           <img
-            src="home/images/logos/qirsc.png"
+            src="/qff-skku/images/logos/qirsc.png"
             alt="Quantum Information Research Support Center"
             className="h-8 object-contain"
           />
           <img
-            src="home/images/logos/nces.png"
+            src="/qff-skku/images/logos/nces.png"
             alt="National Center for Excellence in Software"
             className="h-9 object-contain"
           />
           <img
-            src="home/images/logos/squirl.jpeg"
+            src="/qff-skku/images/logos/squirl.jpeg"
             alt="Superconducting Quantum Information Research Lab"
             className="h-9 object-contain"
           />
           <img
-            src="home/images/logos/ibm_quantum.png"
+            src="/qff-skku/images/logos/ibm_quantum.png"
             alt="IBM Quantum"
             className="h-6 object-contain"
           />

@@ -5,7 +5,7 @@ const features = [
     title: "Quantum workshops.",
     description:
       "Hands-on sessions exploring Qiskit and quantum computing basics for all levels.",
-    image: "home/images/ibm_quantum/Illustration/Crops/Crop_Future.png",
+    image: "/qff-skku/images/ibm_quantum/Illustration/Crops/Crop_Future.png",
     color: "from-purple-500 to-indigo-600",
     bgColor: "bg-purple-50",
     borderColor: "border-purple-200",
@@ -15,7 +15,8 @@ const features = [
     title: "Expert talks.",
     description:
       "Hear from IBM researchers and quantum computing professionals.",
-    image: "home/images/ibm_quantum/Illustration/Crops/Crop_Heisenbergpng.png",
+    image:
+      "/qff-skku/images/ibm_quantum/Illustration/Crops/Crop_Heisenbergpng.png",
     color: "from-blue-500 to-cyan-600",
     bgColor: "bg-blue-50",
     borderColor: "border-blue-200",
@@ -25,7 +26,7 @@ const features = [
     title: "Networking events.",
     description:
       "Meet peers, join team challenges, and connect with the Quantum community.",
-    image: "home/images/ibm_quantum/Illustration/Crops/Crop_Einstein.png",
+    image: "/qff-skku/images/ibm_quantum/Illustration/Crops/Crop_Einstein.png",
     color: "from-teal-500 to-green-600",
     bgColor: "bg-teal-50",
     borderColor: "border-teal-200",
@@ -35,7 +36,8 @@ const features = [
     title: "Quantum Hackathon",
     description:
       "Solve real-world challenges using Qiskit on actual quantum hardware.",
-    image: "home/images/ibm_quantum/Illustration/Crops/Crop_Schrodinger.png",
+    image:
+      "/qff-skku/images/ibm_quantum/Illustration/Crops/Crop_Schrodinger.png",
     color: "from-pink-500 to-rose-600",
     bgColor: "bg-pink-50",
     borderColor: "border-pink-200",

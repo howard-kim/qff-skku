@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="qff-skku/home" element={<Home />} />
         <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/schedule" element={<div>Schedule Page</div>} />
         <Route path="/speakers" element={<div>Speakers Page</div>} />

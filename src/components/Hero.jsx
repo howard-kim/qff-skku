@@ -207,7 +207,9 @@ const Hero = () => {
           {/* Image Container */}
           <div className="relative overflow-hidden rounded-3xl shadow-2xl border border-gray-100">
             <img
-              src={"home/images/ibm_quantum/Illustration/Full_Illustration.png"}
+              src={
+                "/qff-skku/images/ibm_quantum/Illustration/Full_Illustration.png"
+              }
               alt="Qiskit Fall Fest Visual"
               className="w-full transform transition-transform duration-700 group-hover:scale-105"
             />
