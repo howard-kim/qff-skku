@@ -45,6 +45,17 @@ const features = [
     textColor: "text-blue-600",
     shadowColor: "shadow-blue-200",
   },
+  {
+    title: "Valuable Awards",
+    description:
+      "Awards & certifications are given to the participants by the name of President of SKKU and IBM Quantum.",
+    image: "/images/ibm_quantum/Badge/Badge_Dark.png",
+    color: "from-gray-400 to-gray-600",
+    bgColor: "bg-gray-300",
+    borderColor: "border-gray-10",
+    textColor: "text-gray-600",
+    shadowColor: "shadow-gray-200",
+  },
 ];
 
 function Hero2() {
