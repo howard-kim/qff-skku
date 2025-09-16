@@ -5,11 +5,16 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("");
   const [language, setLanguage] = useState("EN");
+  const [scrollProgress, setScrollProgress] = useState(0);
 
   // Handle scroll effect
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
+      const scrollTop = window.scrollY;
+      const docHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
+      const scrollRatio = docHeight > 0 ? scrollTop / docHeight : 0;
+      setScrollProgress(scrollRatio * 100);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -52,12 +57,12 @@ const Header = () => {
                   className="relative h-11 w-auto"
                 />
               </div>
-              <div className="hidden sm:block">
+              {/* <div className="hidden sm:block">
                 <div className="text-lg font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
                   Qiskit Fall Fest
                 </div>
                 <div className="text-xs text-gray-600">@ SKKU 2025</div>
-              </div>
+              </div> */}
             </a>
           </div>
 
@@ -133,10 +138,10 @@ const Header = () => {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+              className="md:hidden p-2 rounded-lg bg-gradient-to-r from-purple-600 to-blue-600 text-white hover:bg-gray-200 transition-colors"
             >
               <svg
-                className="w-6 h-6 text-gray-700"
+                className="w-6 h-6 text-gray-300"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -163,11 +168,13 @@ const Header = () => {
 
         {/* Mobile Menu */}
         <div
-          className={`md:hidden transition-all duration-300 overflow-hidden ${
-            isMobileMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+          className={`md:hidden transition-all duration-300 ${
+            isMobileMenuOpen
+              ? "max-h-96 overflow-y-auto opacity-100"
+              : "max-h-0 overflow-hidden opacity-0"
           }`}
         >
-          <nav className="py-4 border-t border-gray-200">
+          <nav className="py-1 border-t border-gray-200">
             <ul className="space-y-2">
               {navItems.map((item) => (
                 <li key={item.name}>
@@ -219,8 +226,8 @@ const Header = () => {
       {/* Progress Bar (optional) */}
       <div className="absolute bottom-0 left-0 w-full h-0.5 bg-gray-200">
         <div
-          className="h-full bg-gradient-to-r from-purple-600 to-blue-600 transition-all duration-300"
-          style={{ width: isScrolled ? "100%" : "0%" }}
+          className="h-full bg-gradient-to-r from-purple-600 to-blue-600 transition-all duration-75"
+          style={{ width: `${scrollProgress}%` }}
         ></div>
       </div>
     </header>

@@ -3,10 +3,9 @@ import Layout from "../components/Layout";
 
 function Faq() {
   const [openIndex, setOpenIndex] = useState(null);
-  const [selectedCategory, setSelectedCategory] = useState("all");
+  const [selectedCategory, setSelectedCategory] = useState("general");
 
   const faqCategories = [
-    { id: "all", label: "All Questions", icon: "📋" },
     { id: "general", label: "General", icon: "ℹ️" },
     { id: "registration", label: "Registration", icon: "✍️" },
     { id: "technical", label: "Technical", icon: "💻" },
@@ -107,7 +106,7 @@ function Faq() {
   ];
 
   const filteredFaqs =
-    selectedCategory === "all"
+    selectedCategory === "genral"
       ? faqData
       : faqData.filter((faq) => faq.category === selectedCategory);
 
@@ -165,7 +164,7 @@ function Faq() {
               >
                 <button
                   onClick={() => toggleAccordion(index)}
-                  className="w-full px-6 py-4 text-left flex items-center justify-between focus:outline-none group"
+                  className="w-full px-6 py-4 text-left flex items-center justify-between focus:outline-none group bg-gradient-to-r from-purple-600 to-blue-600"
                 >
                   <div className="flex items-start gap-4 flex-1">
                     <span className="text-2xl mt-1">
@@ -200,7 +199,7 @@ function Faq() {
                     openIndex === index ? "max-h-96" : "max-h-0"
                   }`}
                 >
-                  <div className="px-6 pb-4 pl-16 text-gray-600 leading-relaxed">
+                  <div className="px-6 py-4 pb-4 pl-16 text-gray-600 leading-relaxed">
                     {faq.answer}
                   </div>
                 </div>

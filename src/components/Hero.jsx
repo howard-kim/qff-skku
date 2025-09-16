@@ -63,7 +63,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative bg-gradient-to-b from-white via-purple-50/30 to-white py-20 md:py-28 overflow-hidden">
+    <section className="relative bg-gradient-to-b from-white via-purple-50/30 to-white py-28 md:py-28 overflow-hidden">
       {/* Background Decorations */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-purple-200 rounded-full blur-3xl opacity-20 -translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute top-0 right-0 w-96 h-96 bg-blue-200 rounded-full blur-3xl opacity-20 translate-x-1/2 -translate-y-1/2"></div>
@@ -90,13 +90,13 @@ const Hero = () => {
 
         {/* Main Title */}
         <div className="text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 animate-gradient">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 animate-gradient">
             Qiskit Fall Fest 2025
           </h1>
 
           {/* SKKU Host Badge */}
           <div className="mt-6 inline-block">
-            <div className="flex items-center gap-3 text-2xl md:text-3xl font-bold">
+            <div className="flex flex-wrap justify-center items-center gap-3 text-xl sm:text-2xl md:text-3xl font-bold">
               <span className="text-gray-800">Hosted by</span>
               <span className="relative">
                 <span className="absolute inset-0 bg-gradient-to-r from-green-600 to-emerald-600 blur-xl opacity-40"></span>

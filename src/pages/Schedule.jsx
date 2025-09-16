@@ -125,20 +125,25 @@ function Schedule() {
   return (
     <Layout>
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white py-24">
+        <div className="text-center">
+          <span className="inline-block px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-semibold mb-4">
+            Details on
+          </span>
+        </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
-          <div className="text-center mb-12">
+          <div className="text-center mb-4">
             <h1 className="text-5xl font-bold mb-4">
               <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
                 Event Schedule
               </span>
             </h1>
-            <p className="text-lg text-gray-600">5일간의 양자컴퓨팅 여정</p>
+            <p className="text-lg text-gray-600">4 days of Quantum Journey</p>
           </div>
 
           {/* Tab Navigation */}
           <div className="flex justify-center mb-8">
-            <div className="bg-white rounded-full shadow-lg p-1 inline-flex">
+            <div className="bg-white rounded-full shadow-lg p-1 inline-flex space-x-4">
               <button
                 onClick={() => setActiveTab("overview")}
                 className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
@@ -147,7 +152,7 @@ function Schedule() {
                     : "text-gray-600 hover:text-gray-800"
                 }`}
               >
-                전체 일정
+                Schedule Overview
               </button>
               <button
                 onClick={() => setActiveTab("hackathon")}
@@ -157,7 +162,7 @@ function Schedule() {
                     : "text-gray-600 hover:text-gray-800"
                 }`}
               >
-                해커톤 상세
+                Hackathon Details
               </button>
             </div>
           </div>
