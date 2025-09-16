@@ -9,7 +9,7 @@ function Sponsors() {
       url: "https://www.skku.edu/",
       category: "Host Institution",
       description:
-        "Sungkyunkwan University (SKKU), with over 625 years of history, stands as one of Korea's most prestigious institutions. As the host of Qiskit Fall Fest 2025, SKKU demonstrates its commitment to advancing quantum computing education and research. The university's strong emphasis on interdisciplinary collaboration and cutting-edge technology makes it an ideal venue for fostering the next generation of quantum computing professionals.",
+        "Sungkyunkwan University is a national university with 627 years of glorious history and shining tradition, and is a representative symbol of a leading university that leads the new era. At the same time, the university has led the development of higher education in Korea by challenging and innovating with a mind for sharing and coexistence. SKKU will be hosting Qiskit Fall Fest 2025, which demonstrates its commitment to advancing quantum computing education and research.",
       gradient: "from-green-500 to-emerald-600",
     },
     {
@@ -18,7 +18,7 @@ function Sponsors() {
       url: "https://qcenter.kr/",
       category: "Research Partner",
       description:
-        "The Quantum Information Research Support Center (QIRSC) serves as Korea's premier hub for quantum computing research and development. By supporting Qiskit Fall Fest, QIRSC continues its mission to accelerate quantum technology adoption in Korea, providing essential infrastructure and expertise to nurture quantum computing talent and facilitate breakthrough research in quantum information science.",
+        "The Quantum Information Research Support Center focuses on contributing to expanding the base of the domestic quantum research field and achieving a leap in capacity by fostering manpower and establishing infrastructure to create a domestic quantum information science research ecosystem. By supporting Qiskit Fall Fest 2025, QIRSC continues its mission to accelerate quantum technology adoption in Korea.",
       gradient: "from-purple-500 to-indigo-600",
     },
     {
@@ -27,7 +27,7 @@ function Sponsors() {
       url: "https://skb.skku.edu/swuniv/index.do",
       category: "Academic Partner",
       description:
-        "The National Center for Excellence in Software at SKKU plays a pivotal role in bridging classical computing with quantum technologies. Their support for Qiskit Fall Fest reflects their vision of integrating quantum computing into the broader software ecosystem, ensuring that future software engineers are equipped with quantum programming skills essential for the emerging quantum era.",
+        "The National Program of Excellence in Software is recognized as a cradle for fostering professionals and high-quality human resources in the SW and AI fields, and will upgrade the education system and further strengthen the educational infrastructure by making the most of this reputation. By supporting Qiskit Fall Fest 2025, the National Center of Excellence in Software will be able to support the training of leading talents in SW and AI.",
       gradient: "from-blue-500 to-cyan-600",
     },
     {
@@ -36,7 +36,7 @@ function Sponsors() {
       url: "http://quantum.skku.edu/",
       category: "Technical Partner",
       description:
-        "SQUIRL (Superconducting Quantum Information Research Lab) at SKKU represents the forefront of quantum hardware research in Korea. Their expertise in superconducting qubits and quantum device engineering provides participants with invaluable insights into the physical implementation of quantum computers, bridging the gap between theoretical quantum algorithms and practical quantum hardware.",
+        "The Superconducting Quantum Information Research Lab (SQUIRL) at SKKU represents the forefront of quantum hardware research in Korea. SQUIRL’s expertise is in qubit design, fabrication, and quantum device engineering. With the support of SQUIRL, participants will be able to gain insights into the physical implementation of quantum computers and theoretical quantum algorithms.",
       gradient: "from-indigo-500 to-purple-600",
     },
     {
@@ -45,7 +45,7 @@ function Sponsors() {
       url: "https://www.ibm.com/quantum",
       category: "Global Partner",
       description:
-        "IBM Quantum, the global leader in quantum computing, brings world-class expertise and resources to Qiskit Fall Fest. Through the IBM Quantum Network, participants gain access to real quantum hardware and the latest Qiskit framework developments. IBM's commitment to quantum education and open-source development through Qiskit has democratized quantum computing access worldwide, making events like this possible.",
+        "IBM Quantum, the global leader in quantum computing, provides full-stack quantum computing. It provides access to the world’s largest fleet of utility-scale quantum computers and performant Qiskit software to explore, demonstrate, and scale quantum advantage. IBM's commitment to quantum education and open-source development through Qiskit has democratized quantum computing access worldwide, making events like this possible.",
       gradient: "from-blue-600 to-blue-800",
     },
   ];
