@@ -197,7 +197,7 @@ const Header = () => {
               ))}
               <li>
                 <a
-                  href="#"
+                  href=""
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="flex items-center justify-center gap-2 mx-4 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-lg shadow-lg"
                   o
