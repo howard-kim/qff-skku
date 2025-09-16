@@ -1,8 +1,16 @@
 // Aboutus.jsx
-export default function Aboutus() {
+import React from "react";
+import Layout from "../components/Layout";
+import SKKAI from "../components/SKKAI";
+import QFF from "../components/QFF";
+
+function Aboutus() {
   return (
-    <div style={{ backgroundColor: "lightblue", height: "100vh" }}>
-      <h1>About Us Page</h1>
-    </div>
+    <Layout>
+      <SKKAI />
+      <QFF />
+    </Layout>
   );
 }
+
+export default Aboutus;

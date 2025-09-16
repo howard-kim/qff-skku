@@ -5,43 +5,45 @@ const features = [
     title: "Quantum workshops.",
     description:
       "Hands-on sessions exploring Qiskit and quantum computing basics for all levels.",
-    image: "/qff-skku/images/ibm_quantum/Illustration/Crops/Crop_Future.png",
-    color: "from-purple-500 to-indigo-600",
+    image: "/images/ibm_quantum/Illustration/Crops/Crop_Future.png",
+    color: "from-purple-500 to-purple-600",
     bgColor: "bg-purple-50",
     borderColor: "border-purple-200",
     textColor: "text-purple-600",
+    shadowColor: "shadow-purple-200",
   },
   {
     title: "Expert talks.",
     description:
       "Hear from IBM researchers and quantum computing professionals.",
-    image:
-      "/qff-skku/images/ibm_quantum/Illustration/Crops/Crop_Heisenbergpng.png",
-    color: "from-blue-500 to-cyan-600",
-    bgColor: "bg-blue-50",
-    borderColor: "border-blue-200",
-    textColor: "text-blue-600",
+    image: "/images/ibm_quantum/Illustration/Crops/Crop_Heisenbergpng.png",
+    color: "from-gray-400 to-gray-600",
+    bgColor: "bg-gray-300",
+    borderColor: "border-gray-10",
+    textColor: "text-gray-600",
+    shadowColor: "shadow-gray-200",
   },
   {
     title: "Networking events.",
     description:
       "Meet peers, join team challenges, and connect with the Quantum community.",
-    image: "/qff-skku/images/ibm_quantum/Illustration/Crops/Crop_Einstein.png",
-    color: "from-teal-500 to-green-600",
-    bgColor: "bg-teal-50",
-    borderColor: "border-teal-200",
-    textColor: "text-teal-600",
+    image: "/images/ibm_quantum/Illustration/Crops/Crop_Einstein.png",
+    color: "from-purple-400 to-purple-500",
+    bgColor: "bg-purple-50",
+    borderColor: "border-purple-200",
+    textColor: "text-purple-500",
+    shadowColor: "shadow-purple-100",
   },
   {
     title: "Quantum Hackathon",
     description:
       "Solve real-world challenges using Qiskit on actual quantum hardware.",
-    image:
-      "/qff-skku/images/ibm_quantum/Illustration/Crops/Crop_Schrodinger.png",
-    color: "from-pink-500 to-rose-600",
-    bgColor: "bg-pink-50",
-    borderColor: "border-pink-200",
-    textColor: "text-pink-600",
+    image: "/images/ibm_quantum/Illustration/Crops/Crop_Schrodinger.png",
+    color: "from-blue-500 to-blue-600",
+    bgColor: "bg-blue-50",
+    borderColor: "border-blue-200",
+    textColor: "text-blue-600",
+    shadowColor: "shadow-blue-200",
   },
 ];
 
@@ -83,7 +85,7 @@ function Hero2() {
 
                 {/* Image with Background */}
                 <div
-                  className={`relative w-48 h-38 ${feature.bgColor} rounded-2xl p-5 shadow-lg group-hover:shadow-2xl transition-all duration-500 transform group-hover:-translate-y-2 border ${feature.borderColor}`}
+                  className={`relative w-48 h-38 ${feature.bgColor} rounded-2xl p-5 shadow-lg ${feature.shadowColor} group-hover:shadow-2xl transition-all duration-500 transform group-hover:-translate-y-2 border ${feature.borderColor}`}
                 >
                   <img
                     src={feature.image}

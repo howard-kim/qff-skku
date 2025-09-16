@@ -123,7 +123,7 @@ const Hero = () => {
                   d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                 />
               </svg>
-              <span className="font-medium">November 17-21 2025</span>
+              <span className="font-medium">November 18-21 2025</span>
             </div>
             <div className="flex items-center gap-2">
               <svg
@@ -161,14 +161,14 @@ const Hero = () => {
                   d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              <span className="font-medium">5 Days of Quantum</span>
+              <span className="font-medium">4 Days of Quantum</span>
             </div>
           </div>
 
           {/* Countdown */}
           <div className="mt-10">
             <Countdown
-              date={new Date("2025-11-17T00:00:00")}
+              date={new Date("2025-11-18T09:00:00")}
               renderer={countdownRenderer}
             />
           </div>
@@ -207,9 +207,7 @@ const Hero = () => {
           {/* Image Container */}
           <div className="relative overflow-hidden rounded-3xl shadow-2xl border border-gray-100">
             <img
-              src={
-                "/qff-skku/images/ibm_quantum/Illustration/Full_Illustration.png"
-              }
+              src={"/images/ibm_quantum/Illustration/Full_Illustration.png"}
               alt="Qiskit Fall Fest Visual"
               className="w-full transform transition-transform duration-700 group-hover:scale-105"
             />
