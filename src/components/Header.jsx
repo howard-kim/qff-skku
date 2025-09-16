@@ -63,14 +63,14 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav aria-label="Global" className="hidden md:block">
-            <ul className="flex items-center gap-2">
+            <ul className="flex items-center gap-5">
               {navItems.map((item) => (
                 <li key={item.name}>
                   <a
                     href={item.href}
-                    className="px-4 py-2 text-sm font-medium text-gray-700"
+                    className="group relative px-6 py-4 text-sm font-bold uppercase tracking-wider text-gray-900 transition-all duration-500 hover:scale-110 hover:text-blue-600"
                   >
-                    <span className="relative z-10 flex items-center gap-2">
+                    <span className="relative z-20 flex items-center gap-2">
                       {item.name}
                     </span>
                   </a>
