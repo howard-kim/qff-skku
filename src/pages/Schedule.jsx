@@ -6,42 +6,34 @@ function Schedule() {
 
   const overviewSchedule = [
     {
-      date: "2025.11.17 (월)",
+      date: "2025.11.18 (Tue)",
       title: "Workshop Day 1",
-      content: "양자컴퓨터 개관",
-      details: "백엔드 (초전도체, 이온트랩)",
+      content: "Overview of Quantum Computings",
+      details: "Introduction & Hardware Backends and Algorithms",
       icon: "🔬",
       color: "from-purple-500 to-purple-600",
     },
     {
-      date: "2025.11.18 (화)",
+      date: "2025.11.19 (Wed)",
       title: "Workshop Day 2",
-      content: "IBM & Qiskit",
-      details: "플랫폼 소개 및 기초",
+      content: "IBM & Qiskit and Qiskit Hands-On",
+      details: "Platform Introduction and Basics",
       icon: "💻",
       color: "from-blue-500 to-blue-600",
     },
     {
-      date: "2025.11.19 (수)",
-      title: "Workshop Day 3",
-      content: "Qiskit 실습",
-      details: "알고리즘 구현",
-      icon: "⚛️",
-      color: "from-cyan-500 to-cyan-600",
-    },
-    {
-      date: "2025.11.20 (목)",
+      date: "2025.11.20 (Thu)",
       title: "Hackathon Day 1",
-      content: "해커톤 시작",
-      details: "문제 설명 및 팀 구성",
+      content: "Hackathon Begins",
+      details: "Problem Briefing, Team Formation and Hacking Start",
       icon: "🚀",
       color: "from-indigo-500 to-indigo-600",
     },
     {
-      date: "2025.11.21 (금)",
+      date: "2025.11.21 (Fri)",
       title: "Hackathon Day 2",
-      content: "발표 & 시상식",
-      details: "네트워킹 파티",
+      content: "Final Presentations & Awards",
+      details: "Award Ceremony & Networking Party",
       icon: "🏆",
       color: "from-amber-500 to-amber-600",
     },
@@ -49,73 +41,73 @@ function Schedule() {
 
   const detailedSchedule = {
     day1: {
-      date: "2025.11.20 (목)",
+      date: "2025.11.20 (Thu)",
       title: "Hackathon Day 1",
       events: [
         {
           time: "09:00 - 10:00",
-          title: "해커톤 OT",
-          desc: "문제 설명, 제출 및 발표 안내",
+          title: "Hackathon Orientation",
+          desc: "Problem introduction, submission and presentation guidelines",
           icon: "📋",
         },
         {
           time: "10:00 - 12:00",
-          title: "해커톤 진행",
-          desc: "팀별 문제 해결 시작",
+          title: "Hackathon Session",
+          desc: "Team-based problem solving begins",
           icon: "💡",
         },
         {
           time: "12:00 - 13:00",
-          title: "점심시간",
-          desc: "도시락 제공",
+          title: "Lunch Break",
+          desc: "Lunch box provided",
           icon: "🍱",
         },
         {
           time: "13:00 - 18:00",
-          title: "해커톤 진행",
-          desc: "집중 개발 시간",
+          title: "Hackathon Session",
+          desc: "Focused development time",
           icon: "⚡",
         },
       ],
     },
     day2: {
-      date: "2025.11.21 (금)",
+      date: "2025.11.21 (Fri)",
       title: "Hackathon Day 2 & Awards",
       events: [
         {
           time: "09:00 - 12:00",
-          title: "해커톤 진행",
-          desc: "최종 마무리 작업",
+          title: "Hackathon Session",
+          desc: "Final touches and wrap-up",
           icon: "🔧",
         },
         {
           time: "12:00 - 13:00",
-          title: "점심시간",
-          desc: "도시락 제공",
+          title: "Lunch Break",
+          desc: "Lunch box provided",
           icon: "🍱",
         },
         {
           time: "13:00 - 15:00",
-          title: "발표",
-          desc: "선착순 발표, 가산점 부여",
+          title: "Presentations",
+          desc: "First-come-first-served presentation order with bonus points",
           icon: "🎤",
         },
         {
           time: "15:00 - 17:00",
-          title: "심사 & 네트워킹",
-          desc: "교수님 심사, 다과 제공",
+          title: "Judging & Networking",
+          desc: "Judging by professors, light refreshments provided",
           icon: "☕",
         },
         {
           time: "17:00 - 18:00",
-          title: "시상식",
-          desc: "우수팀 시상",
+          title: "Awards Ceremony",
+          desc: "Awards for outstanding teams",
           icon: "🏅",
         },
         {
           time: "18:00 - 20:00",
-          title: "만찬",
-          desc: "케이터링 식사 & 네트워킹",
+          title: "Dinner Reception",
+          desc: "Catered meal and networking",
           icon: "🍽️",
         },
       ],
@@ -143,7 +135,7 @@ function Schedule() {
 
           {/* Tab Navigation */}
           <div className="flex justify-center mb-8">
-            <div className="bg-white rounded-full shadow-lg p-1 inline-flex space-x-4">
+            <div className="rounded-full shadow-lg p-1 inline-flex space-x-4">
               <button
                 onClick={() => setActiveTab("overview")}
                 className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
@@ -317,15 +309,22 @@ function Schedule() {
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start gap-2">
                     <span className="text-purple-600">•</span>
-                    발표는 선착순으로 진행되며, 발표팀에게는 가산점이 부여됩니다
+                    Presentations will be conducted on a first-come,
+                    first-served basis, and bonus points will be awarded to
+                    presenting teams.
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-purple-600">•</span>
-                    모든 식사가 제공되므로 별도 준비가 필요하지 않습니다
+                    Lunch boxes will be provided on both Day 1 and Day 2.
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-purple-600">•</span>A catered dinner
+                    will be provided on Day 2.
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-purple-600">•</span>
-                    네트워킹 시간을 활용하여 다른 참가자들과 교류하세요
+                    Make use of the networking time to connect with other
+                    participants.
                   </li>
                 </ul>
               </div>

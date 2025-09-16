@@ -31,7 +31,7 @@ export default function SKKAI() {
     {
       icon: "🌐",
       title: "Network",
-      description: "University-wide & external networks",
+      description: "External networks",
       color: "from-cyan-500 to-cyan-600",
     },
     {
@@ -40,11 +40,6 @@ export default function SKKAI() {
       description: "Free expression and sharing",
       color: "from-pink-500 to-pink-600",
     },
-  ];
-
-  const supporters = [
-    { name: "SKKU National Center of Excellence in Software", icon: "🏛️" },
-    { name: "Sungkyun AI Research Institute", icon: "🤖" },
   ];
 
   return (
@@ -64,7 +59,7 @@ export default function SKKAI() {
           </span>
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             <span className="bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">
-              SKKAI
+              SKK:AI
             </span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-8">
@@ -74,7 +69,7 @@ export default function SKKAI() {
           {/* English Description */}
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 mb-8 shadow-lg max-w-5xl mx-auto">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Greetings from <strong>SKKAI</strong> - the representative AI
+              Greetings from <strong>SKK:AI</strong> - the representative AI
               student association of Sungkyunkwan University. We bring together
               students from diverse majors who value interdisciplinary
               convergence and grow together.
@@ -109,9 +104,10 @@ export default function SKKAI() {
 
           {/* Korean Description */}
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            성균관대학교의 인공지능(AI) 중심 학술 동아리로, 머신러닝, 딥러닝,
-            자연어처리, 양자AI 등 다양한 분야를 주제로 한 세미나, 프로젝트, 연구
-            활동을 활발히 진행하고 있습니다.
+            As an AI-focused academic club at Sungkyunkwan University, we
+            actively conduct seminars, projects, and research activities on a
+            wide range of topics, including machine learning, deep learning,
+            natural language processing, and quantum AI.
           </p>
         </div>
 
@@ -150,38 +146,14 @@ export default function SKKAI() {
         </div>
 
         {/* Image Section with Overlay */}
-        <div className="relative group mb-16">
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-2xl opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
-          <img
-            src="/images/hero/skkai_hero.png"
-            alt="SKKAI Team"
-            className="mx-auto rounded-2xl shadow-2xl w-full max-w-4xl transform transition-transform duration-500 group-hover:scale-[1.02]"
-          />
-          <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 px-6 py-3 bg-white rounded-full shadow-lg">
-            <p className="text-purple-600 font-semibold flex items-center gap-2">
-              <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-              Actively Recruiting New Members
-            </p>
-          </div>
-        </div>
-
-        {/* Supporters Section */}
-        <div className="bg-gradient-to-r from-purple-100 to-indigo-100 rounded-2xl p-8 mb-16">
-          <h3 className="text-xl font-semibold text-center text-gray-800 mb-6">
-            Supported By
-          </h3>
-          <div className="grid md:grid-cols-2 gap-6">
-            {supporters.map((supporter, index) => (
-              <div
-                key={index}
-                className="flex items-center justify-center gap-3 bg-white rounded-lg p-4 shadow-md"
-              >
-                <span className="text-2xl">{supporter.icon}</span>
-                <span className="text-gray-700 font-medium">
-                  {supporter.name}
-                </span>
-              </div>
-            ))}
+        <div className="relative mb-16 max-w-4xl mx-auto">
+          <div className="absolute inset-0 bg-gradient-to-br from-purple-300 via-indigo-200 to-white rounded-2xl blur-xl opacity-30 z-0"></div>
+          <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
+            <img
+              src="/images/etc/SKKAI.jpg"
+              alt="SKKAI Team"
+              className="w-full"
+            />
           </div>
         </div>
 

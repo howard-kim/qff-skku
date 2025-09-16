@@ -2,7 +2,7 @@ import React from "react";
 
 const features = [
   {
-    title: "Quantum workshops.",
+    title: "Quantum workshops",
     description:
       "Hands-on sessions exploring Qiskit and quantum computing basics for all levels.",
     image: "/images/ibm_quantum/Illustration/Crops/Crop_Future.png",
@@ -13,7 +13,7 @@ const features = [
     shadowColor: "shadow-purple-200",
   },
   {
-    title: "Expert talks.",
+    title: "Expert talks",
     description:
       "Hear from IBM researchers and quantum computing professionals.",
     image: "/images/ibm_quantum/Illustration/Crops/Crop_Heisenbergpng.png",
@@ -24,7 +24,7 @@ const features = [
     shadowColor: "shadow-gray-200",
   },
   {
-    title: "Networking events.",
+    title: "Networking events",
     description:
       "Meet peers, join team challenges, and connect with the Quantum community.",
     image: "/images/ibm_quantum/Illustration/Crops/Crop_Einstein.png",
@@ -61,7 +61,7 @@ const features = [
 function Hero2() {
   return (
     <section className="py-20 px-4 bg-gradient-to-b from-white via-gray-50 to-white overflow-hidden">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-[90rem] mx-auto px-4">
         {/* Section Title */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-4">
@@ -74,7 +74,7 @@ function Hero2() {
         </div>
 
         {/* Features */}
-        <div className="space-y-24">
+        <div className="space-y-32">
           {features.map((feature, index) => (
             <div
               key={index}
@@ -115,7 +115,7 @@ function Hero2() {
               </div>
 
               {/* Text Content */}
-              <div className="text-center md:text-left max-w-md">
+              <div className="text-center md:text-left max-w-xl">
                 {/* Number Badge */}
                 <span
                   className={`inline-block px-3 py-1 ${feature.bgColor} ${feature.textColor} text-sm font-semibold rounded-full mb-4`}
@@ -124,12 +124,12 @@ function Hero2() {
                 </span>
 
                 <h3
-                  className={`text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r ${feature.color} bg-clip-text text-transparent`}
+                  className={`text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r ${feature.color} bg-clip-text text-transparent`}
                 >
                   {feature.title}
                 </h3>
 
-                <p className="text-gray-600 text-lg leading-relaxed">
+                <p className="text-gray-600 text-xl leading-relaxed">
                   {feature.description}
                 </p>
 
@@ -142,28 +142,6 @@ function Hero2() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Bottom CTA */}
-        <div className="text-center mt-20">
-          <button className="group px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
-            <span className="flex items-center gap-3">
-              Join the Quantum Revolution
-              <svg
-                className="w-5 h-5 group-hover:translate-x-1 transition-transform"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M13 7l5 5m0 0l-5 5m5-5H6"
-                />
-              </svg>
-            </span>
-          </button>
         </div>
       </div>
 

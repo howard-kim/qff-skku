@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import Layout from "../components/Layout";
 
 function Speakers() {
-  const [selectedCategory, setSelectedCategory] = useState("all");
+  const [selectedCategory, setSelectedCategory] = useState("professor");
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);
 
   const speakers = [
     {
       id: 1,
-      name: "TBD",
+      name: "Yonuk Chong",
       title: "Professor",
-      organization: "SKKU Department of Physics",
+      organization: "Sungkyunkwan University",
       category: "professor",
       expertise: "Quantum Computing, Superconducting Qubits",
       bio: "Leading researcher in quantum information science with focus on superconducting quantum processors and quantum error correction.",
@@ -81,7 +81,6 @@ function Speakers() {
   ];
 
   const categories = [
-    { id: "all", label: "All Speakers", icon: "👥" },
     { id: "professor", label: "SKKU Professors", icon: "🎓" },
     { id: "ibm", label: "IBM Experts", icon: "💼" },
   ];
@@ -113,7 +112,7 @@ function Speakers() {
 
           {/* Category Filter */}
           <div className="flex justify-center mb-10">
-            <div className="bg-white rounded-full shadow-lg p-1 inline-flex">
+            <div className="bg-white rounded-full shadow-lg p-1 inline-flex space-x-4">
               {categories.map((category) => (
                 <button
                   key={category.id}

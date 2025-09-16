@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const Header = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("");
   const [language, setLanguage] = useState("EN");
@@ -88,7 +88,7 @@ const Header = () => {
           <div className="flex items-center gap-4">
             {/* Register Button - Desktop */}
             <a
-              href="#"
+              href="https://docs.google.com/forms/d/1w5YZjjplAPrApOnVwmXBzGTNdkBY3oGhbCJN95M_qmY/edit"
               className="hidden md:inline-flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5"
             >
               <span>Register</span>

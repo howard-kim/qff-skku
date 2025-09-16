@@ -1,139 +1,104 @@
-// QFF.jsx
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 export default function QFF() {
-  const features = [
-    {
-      icon: "🌍",
-      title: "Global Event",
-      description: "전 세계 대학이 참여하는 글로벌 이벤트",
-    },
-    {
-      icon: "💻",
-      title: "Hands-on Learning",
-      description: "실제 양자 컴퓨터를 활용한 실습",
-    },
-    {
-      icon: "🏆",
-      title: "Competitions",
-      description: "창의적인 문제 해결 챌린지",
-    },
-    {
-      icon: "🤝",
-      title: "Networking",
-      description: "글로벌 양자 커뮤니티와의 교류",
-    },
-  ];
+  const particlesRef = useRef(null);
 
-  const topics = [
-    "양자 회로 설계",
-    "VQE (Variational Quantum Eigensolver)",
-    "QAOA (Quantum Approximate Optimization)",
-    "양자 머신러닝",
-    "양자 암호학",
-    "양자 시뮬레이션",
-  ];
+  // 파티클 애니메이션을 위한 useEffect
+  useEffect(() => {
+    const particles = particlesRef.current?.children;
+    if (!particles) return;
+
+    const animateParticles = () => {
+      Array.from(particles).forEach((particle, index) => {
+        const delay = index * 500;
+        particle.style.animationDelay = `${delay}ms`;
+      });
+    };
+
+    animateParticles();
+  }, []);
 
   return (
-    <section className="relative bg-gradient-to-br from-blue-5 via-cyan-5 to-white py-24 overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage: `repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(59, 130, 246, 0.5) 35px, rgba(59, 130, 246, 0.5) 70px)`,
-          }}
-        ></div>
-      </div>
-
-      {/* Floating Quantum Particles */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-10 w-4 h-4 bg-blue-400 rounded-full animate-pulse"></div>
-        <div className="absolute top-40 right-20 w-3 h-3 bg-cyan-400 rounded-full animate-pulse animation-delay-1000"></div>
-        <div className="absolute bottom-20 left-20 w-5 h-5 bg-indigo-400 rounded-full animate-pulse animation-delay-2000"></div>
-        <div className="absolute bottom-40 right-10 w-3 h-3 bg-blue-300 rounded-full animate-pulse animation-delay-3000"></div>
-      </div>
-
-      <div className="container mx-auto px-6 relative z-10">
-        {/* Header Section */}
-        <div className="text-center mb-16">
-          <span className="inline-block px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold mb-4">
-            IBM Quantum Network Event
-          </span>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
-              Qiskit Fall Fest
-            </span>
-          </h1>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Qiskit Fall Fest는 전 세계 대학생들이 Qiskit을 활용해 양자컴퓨팅을
-            학습하고 체험할 수 있도록 IBM Quantum이 매년 주최하는 글로벌 해커톤
-            시리즈입니다. 각 대학에서는 자체적으로 Qiskit Fall Fest 행사를
-            기획하고 운영하며, 참가자들은 다양한 양자컴퓨팅 주제를 다루게
-            됩니다.
-          </p>
-        </div>
-
-        {/* Image with Effects */}
-        <div className="relative mb-16 group">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-2xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
-          <img
-            src="/images/hero/qff_hero.png"
-            alt="Qiskit Fall Fest"
-            className="relative mx-auto rounded-2xl shadow-2xl w-full max-w-4xl transform transition-all duration-500 group-hover:scale-[1.02]"
+    <section className="relative bg-gradient-to-br overflow-hidden">
+      {/* Floating Quantum Orbs with Enhanced Animation */}
+      <div
+        ref={particlesRef}
+        className="absolute inset-0 overflow-hidden pointer-events-none"
+      >
+        {[...Array(12)].map((_, i) => (
+          <div
+            key={i}
+            className={`absolute rounded-full bg-gradient-to-r ${
+              i % 4 === 0
+                ? "from-blue-400/30 to-cyan-400/30"
+                : i % 4 === 1
+                ? "from-purple-400/30 to-pink-400/30"
+                : i % 4 === 2
+                ? "from-emerald-400/30 to-teal-400/30"
+                : "from-amber-400/30 to-orange-400/30"
+            } blur-sm animate-float`}
+            style={{
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`,
+              width: `${Math.random() * 40 + 20}px`,
+              height: `${Math.random() * 40 + 20}px`,
+              animationDelay: `${Math.random() * 4}s`,
+              animationDuration: `${Math.random() * 4 + 6}s`,
+            }}
           />
-          <div className="absolute -top-4 -right-4 px-4 py-2 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-full text-sm font-semibold animate-bounce">
-            2025 Edition
+        ))}
+      </div>
+
+      {/* Glassmorphism overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-white/10 via-transparent to-white/10 backdrop-blur-[0.5px]"></div>
+
+      <div className="container mx-auto px-6 py-20 relative z-10">
+        {/* Header Section with Enhanced Typography */}
+        <div className="text-center mb-20 space-y-8">
+          <div className="flex justify-center mb-6">
+            <span className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-pink-300 to-pink-400 text-black text-sm font-semibold rounded-full border border-black-200 shadow-md">
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+              IBM Quantum Qiskit Fall Fest 2025
+            </span>
           </div>
-        </div>
-
-        {/* Features Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-          {features.map((feature, index) => (
-            <div
-              key={index}
-              className="group p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-blue-100"
-            >
-              <div className="text-4xl mb-4 transform group-hover:rotate-12 transition-transform duration-300">
-                {feature.icon}
+          {/* Wrapped Image and Heading Sections */}
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-12 mb-20">
+            <section className="lg:w-1/2">
+              <div className="relative perspective-1000 mx-auto animate-float">
+                <img
+                  src="public/images/ibm_quantum/Badge/Badge.png"
+                  alt="Qiskit Fall Fest"
+                  className="mx-auto w-full max-w-md rounded-2xl transition-transform duration-500 hover:scale-105"
+                />
               </div>
-              <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                {feature.title}
-              </h3>
-              <p className="text-sm text-gray-600">{feature.description}</p>
-            </div>
-          ))}
-        </div>
+            </section>
+            <section className="lg:w-1/2 text-left">
+              <h1 className="text-6xl md:text-7xl lg:text-7xl font-black leading-tight">
+                <span className="bg-gradient-to-r from-pink-400 via-black-100 to-pink-400 bg-clip-text text-transparent animate-gradient-x">
+                  Qiskit Fall Fest
+                </span>
+              </h1>
 
-        {/* Topics Section */}
-        <div className="bg-gradient-to-r from-blue-100 to-cyan-100 rounded-2xl p-8">
-          <h3 className="text-2xl font-bold text-center text-gray-800 mb-6">
-            주요 학습 주제
-          </h3>
-          <div className="flex flex-wrap justify-center gap-3">
-            {topics.map((topic, index) => (
-              <span
-                key={index}
-                className="px-4 py-2 bg-white rounded-full text-blue-700 font-medium shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 cursor-pointer"
-              >
-                {topic}
-              </span>
-            ))}
+              <div className="max-w-4xl m space-y-6">
+                <p className="text-xl text-slate-600 leading-relaxed font-light">
+                  Qiskit Fall Fest is a global hackathon series hosted annually
+                  by{" "}
+                  <span className="font-medium text-blue-600">IBM Quantum</span>{" "}
+                  to help university students around the world learn and
+                  experience quantum computing using Qiskit.
+                </p>
+                <p className="text-lg text-slate-500 leading-relaxed">
+                  Each university independently plans and hosts its own Qiskit
+                  Fall Fest event, where participants explore a wide range of
+                  quantum computing topics.
+                </p>
+              </div>
+            </section>
           </div>
         </div>
       </div>
-
-      <style jsx>{`
-        .animation-delay-1000 {
-          animation-delay: 1s;
-        }
-        .animation-delay-2000 {
-          animation-delay: 2s;
-        }
-        .animation-delay-3000 {
-          animation-delay: 3s;
-        }
-      `}</style>
     </section>
   );
 }

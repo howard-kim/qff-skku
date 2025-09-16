@@ -168,14 +168,19 @@ const Hero = () => {
           {/* Countdown */}
           <div className="mt-10">
             <Countdown
-              date={new Date("2025-11-18T09:00:00")}
+              date={new Date("2025-11-18T13:00:00")}
               renderer={countdownRenderer}
             />
           </div>
 
           {/* CTA Buttons */}
           <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <button className="group relative px-8 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+            <a
+              href="https://docs.google.com/forms/d/1w5YZjjplAPrApOnVwmXBzGTNdkBY3oGhbCJN95M_qmY/edit" // 여기에 실제 등록 링크 넣으세요
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative inline-block px-8 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
+            >
               <span className="flex items-center gap-2">
                 Register Now
                 <svg
@@ -192,10 +197,13 @@ const Hero = () => {
                   />
                 </svg>
               </span>
-            </button>
-            <button className="px-8 py-3 bg-white border-2 border-purple-600 text-purple-600 font-semibold rounded-full shadow-md hover:bg-purple-50 transition-all duration-300 transform hover:-translate-y-1">
+            </a>
+            <a
+              href="/#/schedule"
+              className="inline-block px-8 py-3 bg-white border-2 border-purple-600 text-purple-600 font-semibold rounded-full shadow-md hover:bg-purple-50 transition-all duration-300 transform hover:-translate-y-1"
+            >
               Learn More
-            </button>
+            </a>
           </div>
         </div>
 

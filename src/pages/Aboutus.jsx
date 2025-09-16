@@ -8,7 +8,6 @@ function Aboutus() {
   return (
     <Layout>
       <SKKAI />
-      <QFF />
     </Layout>
   );
 }

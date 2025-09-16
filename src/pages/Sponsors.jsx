@@ -72,7 +72,7 @@ function Sponsors() {
           </div>
 
           {/* Partners Grid */}
-          <div className="space-y-12">
+          <div className="space-y-12 max-w-7xl mx-auto px-6 lg:px-8">
             {partners.map((partner, index) => (
               <div
                 key={index}
@@ -121,7 +121,11 @@ function Sponsors() {
                   </div>
 
                   {/* Content Section */}
-                  <div className="lg:w-2/3 text-center lg:text-left">
+                  <div
+                    className={`lg:w-2/3 ${
+                      index % 2 === 0 ? "text-left" : "text-right"
+                    }`}
+                  >
                     <h2 className="text-3xl font-bold mb-4">
                       <span
                         className={`bg-gradient-to-r ${partner.gradient} bg-clip-text text-transparent`}
@@ -166,9 +170,11 @@ function Sponsors() {
                 Special Thanks
               </h3>
               <p className="text-gray-600 max-w-3xl mx-auto mb-8">
-                SKKAI is thankful to all our partners and sponsors who make this event possible. 
-                Their commitment to advancing quantum computing and to supporting our student organization in holding the event 
-                has enabled us to provide this transformative learning experience to all participants.
+                SKKAI is thankful to all our partners and sponsors who make this
+                event possible. Their commitment to advancing quantum computing
+                and to supporting our student organization in holding the event
+                has enabled us to provide this transformative learning
+                experience to all participants.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <span className="px-4 py-2 bg-white rounded-full text-purple-600 font-medium shadow-md">
@@ -184,21 +190,6 @@ function Sponsors() {
                   💡 Research
                 </span>
               </div>
-            </div>
-          </div>
-
-          {/* Become a Partner CTA */}
-          <div className="mt-12 text-center">
-            <div className="bg-white rounded-2xl shadow-xl p-8">
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                Interested in Partnership?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Join us in shaping the future of quantum computing education
-              </p>
-              <button className="px-8 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-                Contact Us
-              </button>
             </div>
           </div>
         </div>
