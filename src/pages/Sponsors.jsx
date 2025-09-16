@@ -166,11 +166,9 @@ function Sponsors() {
                 Special Thanks
               </h3>
               <p className="text-gray-600 max-w-3xl mx-auto mb-8">
-                We extend our heartfelt gratitude to all our partners and
-                sponsors who make this event possible. Their commitment to
-                advancing quantum computing education and fostering innovation
-                enables us to provide this transformative learning experience to
-                all participants.
+                SKKAI is thankful to all our partners and sponsors who make this event possible. 
+                Their commitment to advancing quantum computing and to supporting our student organization in holding the event 
+                has enabled us to provide this transformative learning experience to all participants.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <span className="px-4 py-2 bg-white rounded-full text-purple-600 font-medium shadow-md">
