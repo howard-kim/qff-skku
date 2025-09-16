@@ -114,9 +114,7 @@ export default function Footer() {
               </a>
             </div>
             <p className="text-sm text-gray-600 leading-relaxed mt-4 ">
-              Join us at Sungkyunkwan University for an immersive quantum
-              computing experience. Learn, build, and connect with the quantum
-              community.
+              Join us at Sungkyunkwan University for an immersive experience in AI and Quantum Computing.
             </p>
             {/* Social Links */}
             <div className="flex gap-3 mt-6 justify-center md:justify-start">

@@ -31,7 +31,7 @@ export default function SKKAI() {
     {
       icon: "🌐",
       title: "Network",
-      description: "University-wide & external networks",
+      description: "University & external networks",
       color: "from-cyan-500 to-cyan-600",
     },
     {
@@ -74,10 +74,12 @@ export default function SKKAI() {
           {/* English Description */}
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 mb-8 shadow-lg max-w-5xl mx-auto">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Greetings from <strong>SKKAI</strong> - the representative AI
-              student association of Sungkyunkwan University. We bring together
-              students from diverse majors who value interdisciplinary
-              convergence and grow together.
+               Greetings from <strong>SKKAI</strong> - the representative AI
+              student association of Sungkyunkwan University. 
+              We bring together students from diverse majors 
+              who value interdisciplinary convergence and grow together. 
+              <br></br> <br></br> SKKAI is an AI-focused academic student association at Sungkyunkwan University, actively conducting seminars, projects, and research across diverse fields—including : 
+              Agent, Accelerators, Artificial Intelligence Math, LLM, Machine Learning, Omics, Physical AI, Deep Learning, Voice, and lastly Quantum.
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 text-left">
@@ -108,11 +110,9 @@ export default function SKKAI() {
           </div>
 
           {/* Korean Description */}
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            성균관대학교의 인공지능(AI) 중심 학술 동아리로, 머신러닝, 딥러닝,
-            자연어처리, 양자AI 등 다양한 분야를 주제로 한 세미나, 프로젝트, 연구
-            활동을 활발히 진행하고 있습니다.
-          </p>
+          <h2 className="text-xl text-gray-800 max-w-5xl mx-auto leading-relaxed">
+            <strong>We are glad to host Qiskit Fall Fest 2025 at Sungkyunkwan University.<br></br>Celebrating for the 100th anniversary of quantum mechanics</strong>
+          </h2>
         </div>
 
         {/* Core Values Section */}
@@ -152,37 +152,6 @@ export default function SKKAI() {
         {/* Image Section with Overlay */}
         <div className="relative group mb-16">
           <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-2xl opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
-          <img
-            src="/images/hero/skkai_hero.png"
-            alt="SKKAI Team"
-            className="mx-auto rounded-2xl shadow-2xl w-full max-w-4xl transform transition-transform duration-500 group-hover:scale-[1.02]"
-          />
-          <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 px-6 py-3 bg-white rounded-full shadow-lg">
-            <p className="text-purple-600 font-semibold flex items-center gap-2">
-              <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-              Actively Recruiting New Members
-            </p>
-          </div>
-        </div>
-
-        {/* Supporters Section */}
-        <div className="bg-gradient-to-r from-purple-100 to-indigo-100 rounded-2xl p-8 mb-16">
-          <h3 className="text-xl font-semibold text-center text-gray-800 mb-6">
-            Supported By
-          </h3>
-          <div className="grid md:grid-cols-2 gap-6">
-            {supporters.map((supporter, index) => (
-              <div
-                key={index}
-                className="flex items-center justify-center gap-3 bg-white rounded-lg p-4 shadow-md"
-              >
-                <span className="text-2xl">{supporter.icon}</span>
-                <span className="text-gray-700 font-medium">
-                  {supporter.name}
-                </span>
-              </div>
-            ))}
-          </div>
         </div>
 
         {/* Stats Section */}
@@ -193,6 +162,27 @@ export default function SKKAI() {
                 {stat.number}
               </div>
               <div className="text-gray-600 mt-2">{stat.label}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Supporters Section */}
+      <div className="relative group mb-16"></div>
+      <div className="bg-gradient-to-r from-purple-100 to-indigo-100 rounded-2xl p-8 mb-16">
+        <h3 className="text-xl font-semibold text-center text-gray-800 mb-6">
+          We Are Supported By
+        </h3>
+        <div className="grid md:grid-cols-2 gap-6">
+          {supporters.map((supporter, index) => (
+            <div
+              key={index}
+              className="flex items-center justify-center gap-3 bg-white rounded-lg p-4 shadow-md"
+            >
+              <span className="text-2xl">{supporter.icon}</span>
+              <span className="text-gray-700 font-medium">
+                {supporter.name}
+              </span>
             </div>
           ))}
         </div>

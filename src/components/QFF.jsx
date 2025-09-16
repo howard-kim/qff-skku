@@ -2,36 +2,35 @@
 import React from "react";
 
 export default function QFF() {
-  const features = [
+    const features = [
     {
       icon: "🌍",
       title: "Global Event",
-      description: "전 세계 대학이 참여하는 글로벌 이벤트",
+      description: "A global event with participation from universities worldwide.",
     },
     {
       icon: "💻",
       title: "Hands-on Learning",
-      description: "실제 양자 컴퓨터를 활용한 실습",
+      description: "Hands-on labs using real quantum computers.",
     },
     {
       icon: "🏆",
       title: "Competitions",
-      description: "창의적인 문제 해결 챌린지",
+      description: "Creative problem-solving challenges.",
     },
     {
       icon: "🤝",
       title: "Networking",
-      description: "글로벌 양자 커뮤니티와의 교류",
+      description: "Networking with the global quantum community.",
     },
   ];
 
   const topics = [
-    "양자 회로 설계",
+    "Quantum Circuit Design",
     "VQE (Variational Quantum Eigensolver)",
-    "QAOA (Quantum Approximate Optimization)",
-    "양자 머신러닝",
-    "양자 암호학",
-    "양자 시뮬레이션",
+    "QAOA (Quantum Approximate Optimization Algorithm)",
+    "Quantum Machine Learning",
+    "Quantum Encryption",
   ];
 
   return (
@@ -66,22 +65,14 @@ export default function QFF() {
             </span>
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Qiskit Fall Fest는 전 세계 대학생들이 Qiskit을 활용해 양자컴퓨팅을
-            학습하고 체험할 수 있도록 IBM Quantum이 매년 주최하는 글로벌 해커톤
-            시리즈입니다. 각 대학에서는 자체적으로 Qiskit Fall Fest 행사를
-            기획하고 운영하며, 참가자들은 다양한 양자컴퓨팅 주제를 다루게
-            됩니다.
+            Qiskit Fall Fest is a collection of quantum computing events that allows students, researchers and industry professionals to participate in various quantum-themed activities — 
+            including quantum challenges, hackathons, coding competitions, workshops, social events, and more. Each year, IBM partners with a select group of university students and other volunteer hosts to help them plan and run the global roster of Fall Fest events.
           </p>
         </div>
 
         {/* Image with Effects */}
         <div className="relative mb-16 group">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-2xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
-          <img
-            src="/images/hero/qff_hero.png"
-            alt="Qiskit Fall Fest"
-            className="relative mx-auto rounded-2xl shadow-2xl w-full max-w-4xl transform transition-all duration-500 group-hover:scale-[1.02]"
-          />
           <div className="absolute -top-4 -right-4 px-4 py-2 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-full text-sm font-semibold animate-bounce">
             2025 Edition
           </div>
@@ -108,7 +99,7 @@ export default function QFF() {
         {/* Topics Section */}
         <div className="bg-gradient-to-r from-blue-100 to-cyan-100 rounded-2xl p-8">
           <h3 className="text-2xl font-bold text-center text-gray-800 mb-6">
-            주요 학습 주제
+            Major Learning Topics
           </h3>
           <div className="flex flex-wrap justify-center gap-3">
             {topics.map((topic, index) => (
