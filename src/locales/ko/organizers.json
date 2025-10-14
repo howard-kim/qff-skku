@@ -1,0 +1,120 @@
+{
+  "badge": "SKKAI 참여 학회원",
+  "title": "운영진 소개",
+  "subtitle": "",
+  "badgeLogo": "SKK:AI",
+  "labels": { "about": "소개", "expertise": "전문 분야" },
+
+  "members": [
+    {
+      "id": 1,
+      "name": "김동완 / 총괄 리드",
+      "title": "학부 연구원",
+      "organization": "성균관대학교",
+      "expertise": ["양자컴퓨팅", "Qiskit"],
+      "bio": "Qiskit Fall Fest SKKU 2025 총괄 리더이자 SQuIRL QPU 클라우드 플랫폼 개발자.",
+      "image": "/images/organizers/skkai/dongwan.jpg",
+      "email": "docong0120@g.skku.edu",
+      "linkedin": "https://www.linkedin.com/in/wannasleepofficial"
+    },
+    {
+      "id": 2,
+      "name": "서영호",
+      "title": "학부 연구원",
+      "organization": "성균관대학교",
+      "expertise": ["양자컴퓨팅"],
+      "bio": "SQuAI 핵심 멤버로, 적응형 VQE 전략 연구에 기여.",
+      "image": "/images/organizers/skkai/youngho.jpeg",
+      "email": "syhwlgns@g.skku.edu",
+      "linkedin": "https://www.linkedin.com/in/youngho-seo"
+    },
+    {
+      "id": 3,
+      "name": "권주원",
+      "title": "학부 연구원",
+      "organization": "성균관대학교",
+      "expertise": ["양자컴퓨팅"],
+      "bio": "VQE 구현과 시뮬레이션 테스트에 집중.",
+      "image": "/images/organizers/skkai/juwon.jpeg",
+      "email": "wndnjs0416@skku.edu",
+      "linkedin": "https://www.linkedin.com/in/주원-권-7845aa354"
+    },
+    {
+      "id": 4,
+      "name": "임세준",
+      "title": "학부 연구원",
+      "organization": "성균관대학교",
+      "expertise": ["양자 이론"],
+      "bio": "이론적 기반과 활용 사례 검증을 지원.",
+      "image": "/images/organizers/skkai/sejun.jpeg",
+      "email": "daniel2313@g.skku.edu",
+      "linkedin": "https://www.linkedin.com/in/sejunyim"
+    },
+    {
+      "id": 5,
+      "name": "박혜선",
+      "title": "학부 연구원",
+      "organization": "성균관대학교",
+      "expertise": ["양자 알고리즘"],
+      "bio": "하드웨어 효율적 VQE와 최적화에 관심.",
+      "image": "/images/organizers/skkai/hyeseon.jpeg",
+      "email": "0147qkr@g.skku.edu",
+      "linkedin": ""
+    },
+    {
+      "id": 6,
+      "name": "전병현",
+      "title": "학부 연구원",
+      "organization": "성균관대학교",
+      "expertise": ["양자 정보"],
+      "bio": "서페이스 코드와 오류 저감 기법에 관심.",
+      "image": "/images/organizers/skkai/byunghyun.png",
+      "email": "jbhskku@skku.edu",
+      "linkedin": "https://linkedin.com/in/병현-전-3b8921373"
+    },
+    {
+      "id": 7,
+      "name": "석채은",
+      "title": "학부 연구원",
+      "organization": "성균관대학교",
+      "expertise": ["양자컴퓨팅"],
+      "bio": "양자 입문자를 위한 교육·아웃리치 활동 지원.",
+      "image": "/images/organizers/skkai/chaeeun.jpeg",
+      "email": "tjrcodms87@g.skku.edu",
+      "linkedin": "https://www.linkedin.com/in/chae-eun-seok-323773320"
+    },
+    {
+      "id": 8,
+      "name": "김하종",
+      "title": "학부 연구원",
+      "organization": "성균관대학교",
+      "expertise": ["양자 머신러닝"],
+      "bio": "ED 기반 회로 설계 방법론에 기여.",
+      "image": "/images/organizers/skkai/hajong.jpeg",
+      "email": "whoami125@g.skku.edu",
+      "linkedin": "https://www.linkedin.com/in/hajong-kim-437057260/"
+    },
+    {
+      "id": 9,
+      "name": "윤지호",
+      "title": "학부 연구원",
+      "organization": "성균관대학교",
+      "expertise": ["양자 프로그래밍"],
+      "bio": "Qiskit 튜토리얼 제작 및 신입 멘토링에 집중.",
+      "image": "/images/organizers/skkai/jiho.jpeg",
+      "email": "yunjoe@g.skku.edu",
+      "linkedin": "https://www.linkedin.com/in/jihoyun/"
+    },
+    {
+      "id": 10,
+      "name": "마리아",
+      "title": "학부 연구원",
+      "organization": "성균관대학교",
+      "expertise": ["양자 회로 설계"],
+      "bio": "Qiskit 회로 작성과 시각화에 참여.",
+      "image": "/images/organizers/skkai/ria.jpeg",
+      "email": "lillri@g.skku.edu",
+      "linkedin": "https://www.linkedin.com/in/Riah-Ma"
+    }
+  ]
+}

@@ -7,10 +7,12 @@ import Speakers from "./pages/Speakers.jsx";
 import Organizers from "./pages/Organizers.jsx";
 import Sponsors from "./pages/Sponsors.jsx";
 import Faq from "./pages/Faq.jsx";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<Aboutus />} />

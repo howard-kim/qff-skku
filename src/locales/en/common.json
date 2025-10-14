@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "about": "About Us",
+    "schedule": "Schedule",
+    "speakers": "Speakers",
+    "organizers": "Organizers",
+    "sponsors": "Sponsors",
+    "faq": "FAQ"
+  },
+  "cta": {
+    "register": "Register",
+    "registerNow": "Register Now"
+  },
+  "lang": {
+    "switchToEn": "English",
+    "switchToKo": "Korean"
+  },
+  "a11y": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  }
+}
