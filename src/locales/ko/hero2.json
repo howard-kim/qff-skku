@@ -1,0 +1,27 @@
+{
+  "title": "무엇을 배울 수 있나요?",
+  "subtitle": "<blue>워크숍</blue>, <b>강연</b>, 실습형 챌린지로 구성된 몰입형 양자컴퓨팅 경험을 제공 합니다.",
+  "featuresAlt": "특징 이미지 {{index}}",
+  "features": [
+    {
+      "title": "양자 워크숍",
+      "description": "모두를 위한 양자컴퓨팅 기초와 <purple>Qiskit</purple> 실습 세션."
+    },
+    {
+      "title": "전문가 강연",
+      "description": "IBM 연구원과 양자컴퓨팅 연구자/실무자들의 강연이 진행 됩니다."
+    },
+    {
+      "title": "네트워킹 이벤트",
+      "description": "동료들과 함께 챌린지를 해결하면서 <blue>양자 커뮤니티</blue>와 소통하세요."
+    },
+    {
+      "title": "양자 해커톤",
+      "description": "실제 양자 하드웨어에서 Qiskit을 사용해 과제를 해결합니다."
+    },
+    {
+      "title": "시상식",
+      "description": "<b>성균관대학교 총장</b> 및 <blue>IBM Quantum</blue> 명의의 상장과 인증서가 참가자에게 수여됩니다."
+    }
+  ]
+}

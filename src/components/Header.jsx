@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const { t, i18n } = useTranslation("common");
+
   const [isScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("");
-  const [language, setLanguage] = useState("EN");
   const [scrollProgress, setScrollProgress] = useState(0);
 
-  // Handle scroll effect
+  const currentLang = i18n.language?.startsWith("ko") ? "ko" : "en";
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
@@ -20,18 +23,24 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Navigation items
+  // 네비 항목(문자열은 다 t(...)로)
   const navItems = [
-    { name: "About Us", href: "#/aboutus" },
-    { name: "Schedule", href: "#/schedule" },
-    { name: "Speakers", href: "#/speakers" },
-    { name: "Organizers", href: "#/organizers" },
-    { name: "Sponsors", href: "#/sponsors" },
-    { name: "FAQ", href: "#/faq" },
+    { name: t("nav.about"), href: "#/aboutus" },
+    { name: t("nav.schedule"), href: "#/schedule" },
+    { name: t("nav.speakers"), href: "#/speakers" },
+    { name: t("nav.organizers"), href: "#/organizers" },
+    { name: t("nav.sponsors"), href: "#/sponsors" },
+    { name: t("nav.faq"), href: "#/faq" },
   ];
 
+  // 언어 토글
   const toggleLanguage = () => {
-    setLanguage(language === "EN" ? "한" : "EN");
+    const next = currentLang === "ko" ? "en" : "ko";
+    i18n.changeLanguage(next);
+    // 선택적으로 <html lang="...">도 업데이트
+    if (typeof document !== "undefined") {
+      document.documentElement.setAttribute("lang", next);
+    }
   };
 
   return (
@@ -57,12 +66,6 @@ const Header = () => {
                   className="relative h-11 w-auto"
                 />
               </div>
-              {/* <div className="hidden sm:block">
-                <div className="text-lg font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                  Qiskit Fall Fest
-                </div>
-                <div className="text-xs text-gray-600">@ SKKU 2025</div>
-              </div> */}
             </a>
           </div>
 
@@ -70,7 +73,7 @@ const Header = () => {
           <nav aria-label="Global" className="hidden md:block">
             <ul className="flex items-center gap-5">
               {navItems.map((item) => (
-                <li key={item.name}>
+                <li key={item.href}>
                   <a
                     href={item.href}
                     className="group relative px-6 py-4 text-sm font-bold uppercase tracking-wider text-gray-900 transition-all duration-500 hover:scale-110 hover:text-blue-600"
@@ -91,7 +94,7 @@ const Header = () => {
               href="https://docs.google.com/forms/d/1w5YZjjplAPrApOnVwmXBzGTNdkBY3oGhbCJN95M_qmY/edit"
               className="hidden md:inline-flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5"
             >
-              <span>Register</span>
+              <span>{t("cta.register")}</span>
               <svg
                 className="w-4 h-4"
                 fill="none"
@@ -111,6 +114,7 @@ const Header = () => {
             <button
               onClick={toggleLanguage}
               className="relative group px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-full transition-all duration-300"
+              aria-label={currentLang === "ko" ? t("lang.switchToEn") : t("lang.switchToKo")}
             >
               <div className="flex items-center gap-2">
                 <svg
@@ -126,12 +130,23 @@ const Header = () => {
                     d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"
                   />
                 </svg>
-                <span className="font-medium text-gray-700">{language}</span>
+                {/* 버튼 라벨: KO/EN 토글 */}
+                <span className="font-medium text-gray-700">
+                  {currentLang === "ko" ? "EN" : "KO"}
+                </span>
               </div>
 
               {/* Tooltip */}
-              <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 bg-gray-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap">
-                {language === "EN" ? "Switch to Korean" : "Switch to English"}
+              <span
+                className="absolute -bottom-9 left-1/2 -translate-x-1/2
+                          px-2 py-1 rounded text-xs text-white bg-gray-900
+                          pointer-events-none whitespace-nowrap shadow-md
+                          opacity-0 group-hover:opacity-100 transition-opacity duration-200
+                          z-50"
+              >
+                {currentLang === "ko" ? "English" : "한국어"}
+                {/* i18n 쓰고 싶으면 아래로 바꿔도 됩니다:
+                    {currentLang === "ko" ? t("lang.switchToEn") : t("lang.switchToKo")} */}
               </span>
             </button>
 
@@ -139,6 +154,7 @@ const Header = () => {
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="md:hidden p-2 rounded-lg bg-gradient-to-r from-purple-600 to-blue-600 text-white hover:bg-gray-200 transition-colors"
+              aria-label={isMobileMenuOpen ? t("a11y.closeMenu") : t("a11y.openMenu")}
             >
               <svg
                 className="w-6 h-6 text-gray-300"
@@ -177,7 +193,7 @@ const Header = () => {
           <nav className="py-1 border-t border-gray-200">
             <ul className="space-y-2">
               {navItems.map((item) => (
-                <li key={item.name}>
+                <li key={item.href}>
                   <a
                     href={item.href}
                     onClick={() => {
@@ -197,12 +213,11 @@ const Header = () => {
               ))}
               <li>
                 <a
-                  href=""
+                  href="https://docs.google.com/forms/d/1w5YZjjplAPrApOnVwmXBzGTNdkBY3oGhbCJN95M_qmY/edit"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="flex items-center justify-center gap-2 mx-4 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-lg shadow-lg"
-                  o
                 >
-                  <span>Register Now</span>
+                  <span>{t("cta.registerNow")}</span>
                   <svg
                     className="w-4 h-4"
                     fill="none"

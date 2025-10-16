@@ -1,0 +1,35 @@
+{
+  "badge": "Since 2025",
+  "brand": "SKK:AI",
+  "headline": "Sungkyunkwan University Artificial Intelligence Student Association",
+  "subheadline": "Sungkyunkwan University Artificial Intelligence Student Association",
+  "greeting": "안녕하세요, 성균관대학교를 대표하는 학생 주도 단체 <bold>성균관 인공지능 학회 SKKAI</bold> 입니다. 저희는 다양한 전공의 학생들이 모여 학제 간 융합을 중시하며, 적극적인 의견 공유를 통해 함께 성장하고 있습니다.",
+  "journey": {
+    "title": "학회의 역사",
+    "body": "데이터 분석 동아리 TNT에서 리브랜딩하여 2025년 SKKAI로 새롭게 출범했습니다. 자연과학캠퍼스와 인문사회과학캠퍼스, 2개의 캠퍼스의 학생들이 모여 함께 활동하고 있습니다."
+  },
+  "recognition": {
+    "title": "성과",
+    "body": "창립과 동시에 리더십과 구성원들의 우수한 역량을 통해 2025 성균 프리미엄 스터디 클럽으로 선정되어 학내 우수 단체로 인정 받았습니다."
+  },
+  "intro": "성균관대학교의 AI 중심 학술 동아리로서, 저희는 머신러닝·딥러닝·자연어처리·양자 AI 등 폭넓은 주제를 다루는 세미나, 프로젝트, 연구 활동을 활발히 진행하고 있습니다.",
+  "core": {
+    "title": "SKKAI 핵심 가치 5가지",
+    "values": {
+      "1": { "icon": "🔄", "title": "Convergence", "desc": "학문 간 융합" },
+      "2": { "icon": "⭐", "title": "Specialty", "desc": "도메인 전문성" },
+      "3": { "icon": "🚀", "title": "Proactive", "desc": "주도성·탐구" },
+      "4": { "icon": "🌐", "title": "Network", "desc": "외부 네트워크" },
+      "5": { "icon": "💡", "title": "Open-minded", "desc": "자유로운 공유" }
+    }
+  },
+  "stats": {
+    "items": [
+      { "number": "50+", "label": "활동 회원" },
+      { "number": "17", "label": "전공 구성" },
+      { "number": "2", "label": "캠퍼스" },
+      { "number": "2025", "label": "명품 스터디 클럽" }
+    ],
+    "quote": "이 가치들을 바탕으로 SKKAI는 학문적 성취와 사회적 가치를 함께 만들어갑니다."
+  }
+}

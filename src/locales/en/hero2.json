@@ -1,0 +1,27 @@
+{
+  "title": "What to Expect",
+  "subtitle": "Join us for an immersive quantum computing experience with <blue>workshops</blue>, <b>talks</b>, and hands-on challenges.",
+  "featuresAlt": "Feature image {{index}}",
+  "features": [
+    {
+      "title": "Quantum workshops",
+      "description": "Hands-on sessions exploring <purple>Qiskit</purple> and quantum computing basics for all levels."
+    },
+    {
+      "title": "Expert talks",
+      "description": "Hear from IBM researchers and quantum computing professionals."
+    },
+    {
+      "title": "Networking events",
+      "description": "Meet peers, join team challenges, and connect with the <blue>Quantum community</blue>."
+    },
+    {
+      "title": "Quantum Hackathon",
+      "description": "Solve real-world challenges using Qiskit on actual quantum hardware."
+    },
+    {
+      "title": "Valuable Awards",
+      "description": "Awards & certificates are presented to participants by <b>the President of SKKU</b> and <blue>IBM Quantum</blue>."
+    }
+  ]
+}

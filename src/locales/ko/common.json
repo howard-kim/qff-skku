@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "about": "학회소개",
+    "schedule": "일정",
+    "speakers": "연사진",
+    "organizers": "운영진",
+    "sponsors": "후원&스폰서",
+    "faq": "질의응답"
+  },
+  "cta": {
+    "register": "등록 링크",
+    "registerNow": "Register Now"
+  },
+  "lang": {
+    "switchToEn": "English",
+    "switchToKo": "한국어"
+  },
+  "a11y": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "badge": "Our Support Network",
+  "title": "Partners & Sponsors",
+  "subtitle": "Qiskit Fall Fest 2025 at SKKU is made possible through generous support and collaboration from leading institutions in quantum computing research and education.",
+  "cta": { "visit": "Visit Website" },
+
+  "thanks": {
+    "title": "Special Thanks",
+    "body": "SKKAI is thankful to all our partners and sponsors who make this event possible. Their commitment to advancing quantum computing and to supporting our student organization has enabled us to provide this transformative learning experience to all participants.",
+    "tags": { "collaboration": "Collaboration", "innovation": "Innovation", "education": "Education", "research": "Research" }
+  },
+
+  "partners": [
+    {
+      "name": "SKKU",
+      "logo": "/images/logos/skku.png",
+      "url": "https://www.skku.edu/",
+      "category": "Host Institution",
+      "description": "Sungkyunkwan University is a national university with 627 years of glorious history and shining tradition, and is a representative symbol of a leading university that leads the new era. At the same time, the university has led the development of higher education in Korea by challenging and innovating with a mind for sharing and coexistence. SKKU will be hosting Qiskit Fall Fest 2025, which demonstrates its commitment to advancing quantum computing education and research.",
+      "gradient": "from-green-500 to-emerald-600"
+    },
+    {
+      "name": "Quantum Information Research Support Center",
+      "logo": "/images/logos/qirsc.png",
+      "url": "https://qcenter.kr/",
+      "category": "Research Partner",
+      "description": "The Quantum Information Research Support Center focuses on contributing to expanding the base of the domestic quantum research field and achieving a leap in capacity by fostering manpower and establishing infrastructure to create a domestic quantum information science research ecosystem. By supporting Qiskit Fall Fest 2025, QIRSC continues its mission to accelerate quantum technology adoption in Korea.",
+      "gradient": "from-purple-500 to-indigo-600"
+    },
+    {
+      "name": "National Center for Excellence in Software",
+      "logo": "/images/logos/nces.png",
+      "url": "https://skb.skku.edu/swuniv/index.do",
+      "category": "Academic Partner",
+      "description": "The National Program of Excellence in Software is recognized as a cradle for fostering professionals and high-quality human resources in the SW and AI fields, and will upgrade the education system and further strengthen the educational infrastructure by making the most of this reputation. By supporting Qiskit Fall Fest 2025, the National Center of Excellence in Software will be able to support the training of leading talents in SW and AI.",
+      "gradient": "from-blue-500 to-cyan-600"
+    },
+    {
+      "name": "Superconducting Quantum Information Research Lab",
+      "logo": "/images/logos/squirl.png",
+      "url": "http://quantum.skku.edu/",
+      "category": "Technical Partner",
+      "description": "The Superconducting Quantum Information Research Lab (SQUIRL) at SKKU represents the forefront of quantum hardware research in Korea. SQUIRL’s expertise is in qubit design, fabrication, and quantum device engineering. With the support of SQUIRL, participants will be able to gain insights into the physical implementation of quantum computers and theoretical quantum algorithms.",
+      "gradient": "from-indigo-500 to-purple-600"
+    },
+    {
+      "name": "IBM Quantum",
+      "logo": "/images/logos/ibm_quantum.png",
+      "url": "https://www.ibm.com/quantum",
+      "category": "Global Partner",
+      "description": "IBM Quantum, the global leader in quantum computing, provides full-stack quantum computing. It provides access to the world’s largest fleet of utility-scale quantum computers and performant Qiskit software to explore, demonstrate, and scale quantum advantage. IBM's commitment to quantum education and open-source development through Qiskit has democratized quantum computing access worldwide, making events like this possible.",
+      "gradient": "from-blue-600 to-blue-800"
+    }
+  ]
+}

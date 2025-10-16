@@ -1,0 +1,120 @@
+{
+  "badge": "Members of SKKAI",
+  "title": "Proud Organizers",
+  "subtitle": "Our whole team",
+  "badgeLogo": "SKK:AI",
+  "labels": { "about": "About", "expertise": "Expertise" },
+
+  "members": [
+    {
+      "id": 1,
+      "name": "Dong-Wan Kim / Leader",
+      "title": "Undergraduate Researcher",
+      "organization": "Sungkyunkwan University",
+      "expertise": ["Quantum Computing", "Qiskit"],
+      "bio": "Leader of Qiskit Fall Fest SKKU 2025 and developer of SQuIRL QPU Cloud platform.",
+      "image": "/images/organizers/skkai/dongwan.jpg",
+      "email": "docong0120@g.skku.edu",
+      "linkedin": "https://www.linkedin.com/in/wannasleepofficial"
+    },
+    {
+      "id": 2,
+      "name": "Young-Ho Seo",
+      "title": "Undergraduate Researcher",
+      "organization": "Sungkyunkwan University",
+      "expertise": ["Quantum Computing"],
+      "bio": "Core member of SQuAI and contributor to adaptive VQE strategy.",
+      "image": "/images/organizers/skkai/youngho.jpeg",
+      "email": "syhwlgns@g.skku.edu",
+      "linkedin": "https://www.linkedin.com/in/youngho-seo"
+    },
+    {
+      "id": 3,
+      "name": "Ju-Won Kwon",
+      "title": "Undergraduate Researcher",
+      "organization": "Sungkyunkwan University",
+      "expertise": ["Quantum Computing"],
+      "bio": "Focused on VQE implementation and simulation testing.",
+      "image": "/images/organizers/skkai/juwon.jpeg",
+      "email": "wndnjs0416@skku.edu",
+      "linkedin": "https://www.linkedin.com/in/주원-권-7845aa354"
+    },
+    {
+      "id": 4,
+      "name": "Se-Jun Yim",
+      "title": "Undergraduate Researcher",
+      "organization": "Sungkyunkwan University",
+      "expertise": ["Quantum Theory"],
+      "bio": "Supports theoretical aspects and use case validation.",
+      "image": "/images/organizers/skkai/sejun.jpeg",
+      "email": "daniel2313@g.skku.edu",
+      "linkedin": "https://www.linkedin.com/in/sejunyim"
+    },
+    {
+      "id": 5,
+      "name": "Hye-Seon Park",
+      "title": "Undergraduate Researcher",
+      "organization": "Sungkyunkwan University",
+      "expertise": ["Quantum Algorithms"],
+      "bio": "Interested in hardware-efficient VQE and optimization.",
+      "image": "/images/organizers/skkai/hyeseon.jpeg",
+      "email": "0147qkr@g.skku.edu",
+      "linkedin": ""
+    },
+    {
+      "id": 6,
+      "name": "Byung-Hyun Jun",
+      "title": "Undergraduate Researcher",
+      "organization": "Sungkyunkwan University",
+      "expertise": ["Quantum Information"],
+      "bio": "Interested in surface codes and error mitigation.",
+      "image": "/images/organizers/skkai/byunghyun.png",
+      "email": "jbhskku@skku.edu",
+      "linkedin": "https://linkedin.com/in/병현-전-3b8921373"
+    },
+    {
+      "id": 7,
+      "name": "Chae-eun Seok",
+      "title": "Undergraduate Researcher",
+      "organization": "Sungkyunkwan University",
+      "expertise": ["Quantum Computing"],
+      "bio": "Supporting education and outreach for quantum beginners.",
+      "image": "/images/organizers/skkai/chaeeun.jpeg",
+      "email": "tjrcodms87@g.skku.edu",
+      "linkedin": "https://www.linkedin.com/in/chae-eun-seok-323773320"
+    },
+    {
+      "id": 8,
+      "name": "Hajong Kim",
+      "title": "Undergraduate Researcher",
+      "organization": "Sungkyunkwan University",
+      "expertise": ["Quantum Machine Learning"],
+      "bio": "Contributor to ED-based circuit design methodology.",
+      "image": "/images/organizers/skkai/hajong.jpeg",
+      "email": "whoami125@g.skku.edu",
+      "linkedin": "https://www.linkedin.com/in/hajong-kim-437057260/"
+    },
+    {
+      "id": 9,
+      "name": "Jiho Yun",
+      "title": "Undergraduate Researcher",
+      "organization": "Sungkyunkwan University",
+      "expertise": ["Quantum Programming"],
+      "bio": "Focused on Qiskit tutorials and mentoring new students.",
+      "image": "/images/organizers/skkai/jiho.jpeg",
+      "email": "yunjoe@g.skku.edu",
+      "linkedin": "https://www.linkedin.com/in/jihoyun/"
+    },
+    {
+      "id": 10,
+      "name": "Riah Ma",
+      "title": "Undergraduate Researcher",
+      "organization": "Sungkyunkwan University",
+      "expertise": ["Quantum Circuit Design"],
+      "bio": "Involved in Qiskit circuit building and visualization.",
+      "image": "/images/organizers/skkai/ria.jpeg",
+      "email": "lillri@g.skku.edu",
+      "linkedin": "https://www.linkedin.com/in/Riah-Ma"
+    }
+  ]
+}

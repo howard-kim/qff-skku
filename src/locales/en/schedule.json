@@ -1,0 +1,56 @@
+{
+  "badge": "Details on",
+  "title": "Event Schedule",
+  "subtitle": "4 days of Quantum Journey",
+
+  "tabs": { "overview": "Schedule Overview", "hackathon": "Hackathon Details" },
+
+  "overview": {
+    "days": {
+      "1": { "title": "Workshop Day 1", "content": "Overview of Quantum Computings", "details": "Introduction & Hardware Backends and Algorithms" },
+      "2": { "title": "Workshop Day 2", "content": "IBM & Qiskit and Hands-On", "details": "Platform Introduction and Basics" },
+      "3": { "title": "Hackathon Day 1", "content": "Hackathon Begins", "details": "Problem Briefing, Team Formation and Hacking Start" },
+      "4": { "title": "Hackathon Day 2", "content": "Final Presentations & Awards", "details": "Award Ceremony & Networking Party" }
+    },
+    "chip": "Day {{n}}"
+  },
+
+  "stats": {
+    "totalDays": { "label": "Total Days", "value": "3" },
+    "workshops": { "label": "Workshops", "value": "7" },
+    "hackathon": { "label": "Hackathon", "value": "2 Days" },
+    "meals":     { "label": "Meals Provided", "value": "5+" }
+  },
+
+  "hackathon": {
+    "day1": {
+      "title": "Hackathon Day 1",
+      "events": {
+        "1": { "title": "Hackathon Orientation", "desc": "Problem introduction, submission and presentation guidelines" },
+        "2": { "title": "Hackathon Session",    "desc": "Team-based problem solving begins" },
+        "3": { "title": "Lunch Break",          "desc": "Lunch box provided" },
+        "4": { "title": "Hackathon Session",    "desc": "Focused development time" }
+      }
+    },
+    "day2": {
+      "title": "Hackathon Day 2 & Awards",
+      "events": {
+        "1": { "title": "Hackathon Session", "desc": "Final touches and wrap-up" },
+        "2": { "title": "Lunch Break",       "desc": "Lunch box provided" },
+        "3": { "title": "Presentations",     "desc": "First-come-first-served presentation order with bonus points" },
+        "4": { "title": "Judging & Networking", "desc": "Judging by professors, light refreshments provided" },
+        "5": { "title": "Awards Ceremony",   "desc": "Awards for outstanding teams" },
+        "6": { "title": "Dinner Reception",  "desc": "Catered meal and networking" }
+      }
+    },
+    "notes": {
+      "title": "Important Notes",
+      "items": {
+        "1": "Presentations will be on a first-come, first-served basis, with bonus points for presenting teams.",
+        "2": "Lunch boxes are provided on Day 1 and Day 2.",
+        "3": "A catered dinner will be provided on Day 2.",
+        "4": "Please make use of the networking time to connect with other participants."
+      }
+    }
+  }
+}

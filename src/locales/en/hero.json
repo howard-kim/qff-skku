@@ -1,0 +1,32 @@
+{
+  "badge": "IBM Quantum Network Event",
+  "title": "Qiskit Fall Fest 2025",
+  "host": { "prefix": "Hosted by", "name": "Sungkyunkwan University" },
+  "details": {
+    "date": "November 18-21, 2025",
+    "place": "Natural Sciences Campus",
+    "tagline": "4 Days of Quantum"
+  },
+  "countdown": {
+    "targetISO": "2025-11-18T13:00:00",
+    "started": "Event Started! 🎉",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "cta": {
+    "register": {
+      "label": "Register Now",
+      "url": "https://docs.google.com/forms/d/1w5YZjjplAPrApOnVwmXBzGTNdkBY3oGhbCJN95M_qmY/edit"
+    },
+    "learn": "Learn More"
+  },
+  "limited": "Limited Seats!",
+  "stats": [
+    { "number": "80", "label": "Participants" },
+    { "number": "10+", "label": "Workshops" },
+    { "number": "10+", "label": "Speakers" },
+    { "number": "48h", "label": "Hackathon" }
+  ]
+}
