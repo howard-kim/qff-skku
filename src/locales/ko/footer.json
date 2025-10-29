@@ -1,5 +1,5 @@
 {
-  "about": "성균관대학교에서 함께 양자컴퓨팅 경험을 몰입해 배워 보세요.",
+  "about": "",
   "quickTitle": "추가 정보",
   "contactTitle": "문의",
   "partnersTitle": "파트너 & 스폰서",
@@ -8,8 +8,8 @@
     { "to": "/schedule",   "label": "일정표" },
     { "to": "/speakers",   "label": "연사진" },
     { "to": "/organizers", "label": "운영진" },
-    { "to": "/sponsors",   "label": "후회 & 스폰서" },
-    { "to": "/faq",        "label": "질의응답" }
+    { "to": "/sponsors",   "label": "주관&후원" },
+    { "to": "/faq",        "label": "FAQ" }
   ],
   "contact": {
     "email": "squirl.skku@gmail.com",

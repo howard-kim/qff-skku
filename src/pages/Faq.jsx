@@ -126,15 +126,6 @@ function Faq() {
                   </svg>
                   <span>{t("help.email")}</span>
                 </a>
-                <a
-                  href="#/discord"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
-                >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                  </svg>
-                  <span>{t("help.discord")}</span>
-                </a>
               </div>
             </div>
           </div>
@@ -151,7 +142,7 @@ function Faq() {
             <div className="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-lg transition-shadow">
               <div className="text-3xl mb-3">📝</div>
               <h4 className="font-semibold text-gray-800 mb-2">{t("quick.registration.title")}</h4>
-              <a href="#/register" className="text-purple-600 hover:text-purple-700 text-sm">
+              <a href="https://docs.google.com/forms/d/1w5YZjjplAPrApOnVwmXBzGTNdkBY3oGhbCJN95M_qmY/edit" className="text-purple-600 hover:text-purple-700 text-sm">
                 {t("quick.registration.cta")} →
               </a>
             </div>

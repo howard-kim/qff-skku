@@ -1,14 +1,14 @@
 {
   "nav": {
-    "about": "학회소개",
+    "about": "학회 소개",
     "schedule": "일정",
     "speakers": "연사진",
     "organizers": "운영진",
-    "sponsors": "후원&스폰서",
-    "faq": "질의응답"
+    "sponsors": "주관&후원",
+    "faq": "FAQ"
   },
   "cta": {
-    "register": "등록 링크",
+    "register": "등록",
     "registerNow": "Register Now"
   },
   "lang": {
