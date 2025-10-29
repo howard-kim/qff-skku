@@ -1,7 +1,7 @@
 // src/pages/Schedule.jsx
 import React, { useState } from "react";
-import { useTranslation } from "react-i18next";
 import Layout from "../components/Layout";
+import { useTranslation } from "react-i18next";
 
 function Schedule() {
   const { t } = useTranslation("schedule");
@@ -48,10 +48,10 @@ function Schedule() {
       date: "2025.11.20 (Thu)",
       title: t("hackathon.day1.title"),
       events: [
-        { time: "09:00 - 10:00", title: t("hackathon.day1.events.1.title"), desc: t("hackathon.day1.events.1.desc"), icon: "📋" },
-        { time: "10:00 - 12:00", title: t("hackathon.day1.events.2.title"), desc: t("hackathon.day1.events.2.desc"), icon: "💡" },
-        { time: "12:00 - 13:00", title: t("hackathon.day1.events.3.title"), desc: t("hackathon.day1.events.3.desc"), icon: "🍱" },
-        { time: "13:00 - 18:00", title: t("hackathon.day1.events.4.title"), desc: t("hackathon.day1.events.4.desc"), icon: "⚡" }
+        { time: "13:00 - 14:00", title: t("hackathon.day1.events.1.title"), desc: t("hackathon.day1.events.1.desc"), icon: "📋" },
+        { time: "14:00 - 18:00", title: t("hackathon.day1.events.2.title"), desc: t("hackathon.day1.events.2.desc"), icon: "💡" },
+        { time: "18:00 - 19:00", title: t("hackathon.day1.events.3.title"), desc: t("hackathon.day1.events.3.desc"), icon: "🍱" },
+        { time: "19:00 - 22:00", title: t("hackathon.day1.events.4.title"), desc: t("hackathon.day1.events.4.desc"), icon: "⚡" }
       ],
     },
     day2: {
@@ -138,7 +138,7 @@ function Schedule() {
                               </div>
                               <h3 className="text-2xl font-bold text-gray-800 mb-2">{item.title}</h3>
                               <p className="text-lg text-gray-700 font-medium">{item.content}</p>
-                              <p className="text-gray-600 mt-1">{item.details}</p>
+                              <p className="text-gray-600 mt-1 whitespace-pre-line">{item.details}</p>
                             </div>
                             <div className={`ml-4 px-3 py-1 bg-gradient-to-r ${item.color} text-white text-sm font-semibold rounded-full`}>
                               {t("overview.chip", { n: index + 1 })}
@@ -151,10 +151,18 @@ function Schedule() {
                 ))}
               </div>
 
+              <div className="flex justify-center">
+                <img
+                  src="/images/etc/schedule.png"
+                  alt="워크샵 상세 일정표"
+                  className="w-full max-w-3xl rounded-xl shadow-sm ring-1 ring-slate-200"
+                />
+              </div>
+
               {/* Quick Stats */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12">
                 {[
-                  { label: t("stats.totalDays.label"), value: t("stats.totalDays.value"), icon: "📅" },
+                  { label: t("stats.totalDays.label"), value: t(4), icon: "📅" },
                   { label: t("stats.workshops.label"), value: t("stats.workshops.value"), icon: "🎓" },
                   { label: t("stats.hackathon.label"), value: t("stats.hackathon.value"), icon: "💻" },
                   { label: t("stats.meals.label"), value: t("stats.meals.value"), icon: "🍱" }
@@ -187,7 +195,7 @@ function Schedule() {
                           <h3 className="font-semibold text-gray-800">{event.title}</h3>
                           <span className="text-sm text-indigo-600 font-medium">{event.time}</span>
                         </div>
-                        <p className="text-gray-600 mt-1">{event.desc}</p>
+                        <p className="text-gray-600 mt-1 whitespace-pre-line">{event.desc}</p>
                       </div>
                     </div>
                   ))}
@@ -209,7 +217,7 @@ function Schedule() {
                           <h3 className="font-semibold text-gray-800">{event.title}</h3>
                           <span className="text-sm text-amber-600 font-medium">{event.time}</span>
                         </div>
-                        <p className="text-gray-600 mt-1">{event.desc}</p>
+                        <p className="text-gray-600 mt-1 whitespace-pre-line">{event.desc}</p>
                       </div>
                     </div>
                   ))}
@@ -226,7 +234,6 @@ function Schedule() {
                   <li className="flex items-start gap-2"><span className="text-purple-600">•</span>{t("hackathon.notes.items.1")}</li>
                   <li className="flex items-start gap-2"><span className="text-purple-600">•</span>{t("hackathon.notes.items.2")}</li>
                   <li className="flex items-start gap-2"><span className="text-purple-600">•</span>{t("hackathon.notes.items.3")}</li>
-                  <li className="flex items-start gap-2"><span className="text-purple-600">•</span>{t("hackathon.notes.items.4")}</li>
                 </ul>
               </div>
             </div>

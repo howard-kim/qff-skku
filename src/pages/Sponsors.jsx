@@ -6,7 +6,6 @@ import { useTranslation } from "react-i18next";
 function Sponsors() {
   const { t } = useTranslation("sponsors");
 
-  // 파트너 데이터도 JSON에서 로드
   const partners = t("partners", { returnObjects: true }) || [];
 
   return (
@@ -23,9 +22,6 @@ function Sponsors() {
                 {t("title")}
               </span>
             </h1>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              {t("subtitle")}
-            </p>
           </div>
 
           {/* Partners Grid */}
@@ -45,13 +41,13 @@ function Sponsors() {
                     <div className="relative">
                       {/* Glow */}
                       <div
-                        className={`absolute inset-0 bg-gradient-to-r ${partner.gradient} rounded-2xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500`}
+                        className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500"
                       />
                       {/* Card */}
                       <div className="relative bg-white rounded-2xl shadow-xl p-12 group-hover:shadow-2xl transition-all duration-500 group-hover:-translate-y-2">
                         <div className="absolute top-4 right-4">
                           <span
-                            className={`px-3 py-1 bg-gradient-to-r ${partner.gradient} text-white text-xs font-semibold rounded-full`}
+                            className="px-3 py-1 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-xs font-semibold rounded-full"
                           >
                             {partner.category}
                           </span>
@@ -77,7 +73,7 @@ function Sponsors() {
                   {/* Content */}
                   <div className={`lg:w-2/3 ${index % 2 === 0 ? "text-left" : "text-right"}`}>
                     <h2 className="text-3xl font-bold mb-4">
-                      <span className={`bg-gradient-to-r ${partner.gradient} bg-clip-text text-transparent`}>
+                      <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                         {partner.name}
                       </span>
                     </h2>
@@ -88,7 +84,7 @@ function Sponsors() {
                       href={partner.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r ${partner.gradient} text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1`}
+                      className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                     >
                       <span>{t("cta.visit")}</span>
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

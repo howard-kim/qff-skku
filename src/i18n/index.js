@@ -21,18 +21,20 @@ import enQff from "../locales/en/qff.json";
 import koQff from "../locales/ko/qff.json";
 import enHero2 from "../locales/en/hero2.json";
 import koHero2 from "../locales/ko/hero2.json";
+import enSpeakers from "../locales/en/speakers.json";
+import koSpeakers from "../locales/ko/speakers.json";
 
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources: {
-      en: { common: enCommon, skkai: enSkKAI, schedule: enSchedule, organizers: enOrganizers, sponsors: enSponsors, faq: enFaq, footer: enFooter, qff: enQff, hero2: enHero2 },
-      ko: { common: koCommon, skkai: koSkKAI, schedule: koSchedule, organizers: koOrganizers, sponsors: koSponsors, faq: koFaq, footer: koFooter, qff: koQff, hero2: koHero2 },
+      en: { common: enCommon, skkai: enSkKAI, schedule: enSchedule, organizers: enOrganizers, sponsors: enSponsors, faq: enFaq, footer: enFooter, qff: enQff, hero2: enHero2, speakers: enSpeakers },
+      ko: { common: koCommon, skkai: koSkKAI, schedule: koSchedule, organizers: koOrganizers, sponsors: koSponsors, faq: koFaq, footer: koFooter, qff: koQff, hero2: koHero2, speakers: koSpeakers },
     },
     fallbackLng: "ko",
     supportedLngs: ["en", "ko"],
-    ns: ["common", "skkai", "schedule, organizers, sponsors, faq, footer, qff, hero2"],
+    ns: ["common", "skkai", "schedule", "organizers", "sponsors", "faq", "footer", "qff", "hero2", "speakers"],
     defaultNS: "common",
     interpolation: { escapeValue: false },
     detection: {

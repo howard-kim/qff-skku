@@ -22,7 +22,7 @@
     {
       "category": "registration",
       "question": "How do I register for the event?",
-      "answer": "Registration is done through our online form (link available on the main page). Registration is free but seats are limited to 80 participants. We recommend registering early as spots fill up quickly. You'll receive a confirmation email within 24 hours of registration."
+      "answer": "Registration is done through our online form (link available on the main page). Registration is free but seats are limited to 80 participants. We recommend registering early as spots fill up quickly."
     },
     {
       "category": "registration",
@@ -83,8 +83,7 @@
   "help": {
     "title": "Still Have Questions?",
     "body": "Can't find the answer you're looking for? Our team is here to help!",
-    "email": "Email Us",
-    "discord": "Join Discord"
+    "email": "Email Us"
   },
   "quick": {
     "schedule": { "title": "Event Schedule", "cta": "View Schedule" },

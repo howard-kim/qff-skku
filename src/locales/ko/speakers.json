@@ -1,0 +1,82 @@
+{
+  "subtitle": "초청 연사",
+  "about": "소개",
+  "expertise": "전문 분야",
+  "categories": [
+    { "id": "professor", "label": "SKKU 교수진", "icon": "🎓" },
+    { "id": "ibm", "label": "IBM 전문가", "icon": "💼" }
+  ],
+  "people": [
+    {
+      "id": "chong-yonuk",
+      "name": "정연욱",
+      "title": "교수",
+      "organization": "성균관대학교 양자정보공학과",
+      "category": "professor",
+      "expertise": ["초전도 큐비트", "양자 측정", "양자컴퓨팅"],
+      "bio": "초전도 양자 하드웨어 및 양자 측정 기술을 중심으로 실용적 양자컴퓨터 구현을 연구합니다.",
+      "image": "/images/speakers/chong.jpg",
+      "email": ""
+    },
+    {
+      "id": "kim-joongi",
+      "name": "김준기",
+      "title": "교수",
+      "organization": "성균관대학교 양자정보공학과",
+      "category": "professor",
+      "expertise": ["이론 양자정보", "양자 알고리즘"],
+      "bio": "",
+      "image": "/images/speakers/kim-joongi.jpg"
+    },
+    {
+      "id": "min-dongmun",
+      "name": "민동문",
+      "title": "교수",
+      "organization": "성균관대학교 양자정보공학과",
+      "category": "professor",
+      "expertise": ["양자 마키텍처", "양자 제어"],
+      "bio": "",
+      "image": "/images/speakers/min-dongmun.jpg"
+    },
+    {
+      "id": "lee-seokhyung",
+      "name": "이석형",
+      "title": "교수",
+      "organization": "성균관대학교 양자정보공학과",
+      "category": "professor",
+      "expertise": ["양자 유체역학", "양자 재료"],
+      "bio": "",
+      "image": "/images/speakers/lee-seokhyung.jpg"
+    },
+    {
+      "id": "Jung Hoon Han",
+      "name": "한정훈",
+      "title": "교수",
+      "organization": "성균관대학교 양자정보공학과",
+      "category": "professor",
+      "expertise": ["양자 보이론", "양자 광학"],
+      "bio": "",
+      "image": "/images/speakers/han-junghoon.jpg"
+    },
+    {
+      "id": "myung-changwoo",
+      "name": "명창우",
+      "title": "교수",
+      "organization": "성균관대학교 양자정보공학과",
+      "category": "professor",
+      "expertise": ["양자 화학", "알고리즘"],
+      "bio": "",
+      "image": "/images/speakers/myung-changwoo.jpg"
+    },
+    {
+      "id": "kim-youngjip",
+      "name": "김영집",
+      "title": "연사",
+      "organization": "IBM Quantum",
+      "category": "ibm",
+      "expertise": ["Qiskit", "양자 교육"],
+      "bio": "IBM Quantum의 교육·커뮤니티 활동과 Qiskit 기반 실습을 이끕니다.",
+      "image": "/images/speakers/kim-youngjip.jpg"
+    }
+  ]
+}

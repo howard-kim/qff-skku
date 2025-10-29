@@ -1,0 +1,81 @@
+{
+  "subtitle": "Featured Speakers",
+  "about": "About",
+  "expertise": "Expertise",
+  "categories": [
+    { "id": "professor", "label": "SKKU Professors", "icon": "🎓" },
+    { "id": "ibm", "label": "IBM Experts", "icon": "💼" }
+  ],
+  "people": [
+    {
+      "id": "chong-yonuk",
+      "name": "Yonuk Chong",
+      "title": "Professor",
+      "organization": "Dept. of Quantum Information Engineering, SKKU",
+      "category": "professor",
+      "expertise": ["Superconducting Qubits", "Quantum Measurement", "Quantum Computing"],
+      "bio": "Research on practical quantum computers focusing on superconducting hardware and measurement.",
+      "image": "/images/speakers/chong.jpg"
+    },
+    {
+      "id": "kim-joongi",
+      "name": "Junki Kim",
+      "title": "Professor",
+      "organization": "Dept. of Quantum Information Engineering, SKKU",
+      "category": "professor",
+      "expertise": ["Theoretical Quantum Information", "Quantum Algorithms"],
+      "bio": "",
+      "image": "/images/speakers/kim-joongi.jpg"
+    },
+    {
+      "id": "min-dongmun",
+      "name": "Dong-Moon Min",
+      "title": "Professor",
+      "organization": "Dept. of Software, SKKU",
+      "category": "professor",
+      "expertise": ["Quantum Architecture", "Quantum Control"],
+      "bio": "",
+      "image": "/images/speakers/min-dongmun.jpg"
+    },
+    {
+      "id": "lee-seokhyung",
+      "name": "Seok-Hyung Lee",
+      "title": "Professor",
+      "organization": "Dept. of Quantum Information Engineering, SKKU",
+      "category": "professor",
+      "expertise": ["Quantum Hydrodynamics", "Quantum Materials"],
+      "bio": "",
+      "image": "/images/speakers/lee-seokhyung.jpg"
+    },
+    {
+      "id": "han-junghoon",
+      "name": "Jung Hoon Han",
+      "title": "Professor",
+      "organization": "Dept. of Quantum Information Engineering, SKKU",
+      "category": "professor",
+      "expertise": ["Quantum Field Theory", "Quantum Optics"],
+      "bio": "",
+      "image": "/images/speakers/han-junghoon.jpg"
+    },
+    {
+      "id": "myung-changwoo",
+      "name": "Chang Woo Myung",
+      "title": "Professor",
+      "organization": "Dept. of Quantum Information Engineering, SKKU",
+      "category": "professor",
+      "expertise": ["Quantum Chemistry", "Algorithms"],
+      "bio": "",
+      "image": "/images/speakers/myung-changwoo.jpg"
+    },
+    {
+      "id": "kim-youngjip",
+      "name": "Youngjip Kim",
+      "title": "Speaker",
+      "organization": "IBM Quantum",
+      "category": "ibm",
+      "expertise": ["Qiskit", "Education"],
+      "bio": "Leads Qiskit-based education and community activities at IBM Quantum.",
+      "image": "/images/speakers/kim-youngjip.jpg"
+    }
+  ]
+}
