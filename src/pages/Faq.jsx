@@ -10,17 +10,19 @@ function Faq() {
 
   // 카테고리 (아이콘은 고정, 라벨은 i18n)
   const faqCategories = [
-    { id: "general",      label: t("categories.general"),      icon: "ℹ️" },
+    { id: "general", label: t("categories.general"), icon: "ℹ️" },
     { id: "registration", label: t("categories.registration"), icon: "✍️" },
-    { id: "technical",    label: t("categories.technical"),    icon: "💻" },
-    { id: "logistics",    label: t("categories.logistics"),    icon: "📍" },
+    { id: "technical", label: t("categories.technical"), icon: "💻" },
+    { id: "logistics", label: t("categories.logistics"), icon: "📍" },
   ];
 
   // Q&A 전체 (i18n JSON에서 로드)
   const faqData = t("items", { returnObjects: true }) || [];
 
   // ※ general일 때도 'general'만 보이도록 필터(요청사항 반영)
-  const filteredFaqs = faqData.filter(faq => faq.category === selectedCategory);
+  const filteredFaqs = faqData.filter(
+    (faq) => faq.category === selectedCategory
+  );
 
   const toggleAccordion = (index) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -52,11 +54,16 @@ function Faq() {
               return (
                 <button
                   key={category.id}
-                  onClick={() => { setSelectedCategory(category.id); setOpenIndex(null); }}
+                  onClick={() => {
+                    setSelectedCategory(category.id);
+                    setOpenIndex(null);
+                  }}
                   className={`px-4 py-2 rounded-full font-medium transition-all duration-300 flex items-center gap-2
-                    ${active
-                      ? "bg-gradient-to-r from-purple-600 to-blue-600 text-white shadow-lg"
-                      : "bg-white text-gray-700 hover:text-gray-900 shadow-md ring-1 ring-gray-200 hover:shadow-lg"}
+                    ${
+                      active
+                        ? "bg-gradient-to-r from-purple-600 to-blue-600 text-white shadow-lg"
+                        : "bg-white text-gray-700 hover:text-gray-900 shadow-md ring-1 ring-gray-200 hover:shadow-lg"
+                    }
                   `}
                 >
                   <span>{category.icon}</span>
@@ -80,9 +87,10 @@ function Faq() {
                              bg-gradient-to-r from-fuchsia-500 to-blue-600 rounded-xl"
                 >
                   <div className="flex items-start gap-4 flex-1">
-                    <span className="text-2xl mt-1 select-none">{
-                      faqCategories.find((cat) => cat.id === faq.category)?.icon || "❓"
-                    }</span>
+                    <span className="text-2xl mt-1 select-none">
+                      {faqCategories.find((cat) => cat.id === faq.category)
+                        ?.icon || "❓"}
+                    </span>
                     {/* ★ 포인트: 기본은 흰색, 호버 시 '검은색'으로 변경 */}
                     <h3 className="text-lg font-semibold text-white group-hover:text-black transition-colors">
                       {faq.question}
@@ -90,17 +98,30 @@ function Faq() {
                   </div>
                   {/* 화살표 아이콘 색도 대비 높게 */}
                   <svg
-                    className={`w-6 h-6 transition-transform duration-300 ${openIndex === index ? "rotate-180 text-white" : "text-white"}`}
+                    className={`w-6 h-6 transition-transform duration-300 ${
+                      openIndex === index
+                        ? "rotate-180 text-white"
+                        : "text-white"
+                    }`}
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 9l-7 7-7-7"
+                    />
                   </svg>
                 </button>
 
                 {/* 답변 영역 */}
-                <div className={`overflow-hidden transition-all duration-300 ${openIndex === index ? "max-h-96" : "max-h-0"}`}>
+                <div
+                  className={`overflow-hidden transition-all duration-300 ${
+                    openIndex === index ? "max-h-96" : "max-h-0"
+                  }`}
+                >
                   <div className="px-6 py-4 pb-4 pl-16 text-gray-700 leading-relaxed">
                     {faq.answer}
                   </div>
@@ -118,11 +139,21 @@ function Faq() {
               <p className="text-gray-600 mb-6">{t("help.body")}</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="mailto:qiskit@skku.edu"
+                  href="mailto:docong0120@skku.edu"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-white rounded-full font-semibold text-purple-600 shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
                 >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
                   </svg>
                   <span>{t("help.email")}</span>
                 </a>
@@ -134,22 +165,37 @@ function Faq() {
           <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div className="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-lg transition-shadow">
               <div className="text-3xl mb-3">📅</div>
-              <h4 className="font-semibold text-gray-800 mb-2">{t("quick.schedule.title")}</h4>
-              <a href="#/schedule" className="text-purple-600 hover:text-purple-700 text-sm">
+              <h4 className="font-semibold text-gray-800 mb-2">
+                {t("quick.schedule.title")}
+              </h4>
+              <a
+                href="#/schedule"
+                className="text-purple-600 hover:text-purple-700 text-sm"
+              >
                 {t("quick.schedule.cta")} →
               </a>
             </div>
             <div className="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-lg transition-shadow">
               <div className="text-3xl mb-3">📝</div>
-              <h4 className="font-semibold text-gray-800 mb-2">{t("quick.registration.title")}</h4>
-              <a href="https://docs.google.com/forms/d/1w5YZjjplAPrApOnVwmXBzGTNdkBY3oGhbCJN95M_qmY/edit" className="text-purple-600 hover:text-purple-700 text-sm">
+              <h4 className="font-semibold text-gray-800 mb-2">
+                {t("quick.registration.title")}
+              </h4>
+              <a
+                href="https://docs.google.com/forms/d/1w5YZjjplAPrApOnVwmXBzGTNdkBY3oGhbCJN95M_qmY/edit"
+                className="text-purple-600 hover:text-purple-700 text-sm"
+              >
                 {t("quick.registration.cta")} →
               </a>
             </div>
             <div className="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-lg transition-shadow">
               <div className="text-3xl mb-3">📚</div>
-              <h4 className="font-semibold text-gray-800 mb-2">{t("quick.resources.title")}</h4>
-              <a href="#/resources" className="text-purple-600 hover:text-purple-700 text-sm">
+              <h4 className="font-semibold text-gray-800 mb-2">
+                {t("quick.resources.title")}
+              </h4>
+              <a
+                href="#/resources"
+                className="text-purple-600 hover:text-purple-700 text-sm"
+              >
                 {t("quick.resources.cta")} →
               </a>
             </div>

@@ -1,4 +1,14 @@
 {
+  "badge": "Detailed Information",
+  "title": "Event Schedule",
+  "subtitle": "4-Day Quantum Journey",
+
+  "tabs": {
+    "overview": "Full Schedule",
+    "workshop": "Workshop Info",
+    "hackathon": "Hackathon Info"
+  },
+
   "overview": {
     "days": {
       "1": {
@@ -21,6 +31,89 @@
         "content": "Final Presentations & Awards",
         "details": "Awards ceremony · Networking party"
       }
+    },
+    "chip": "Day {{n}}"
+  },
+
+  "stats": {
+    "totalDays": { "label": "Total Days", "value": "3" },
+    "workshops": { "label": "Workshops", "value": "7" },
+    "hackathon": { "label": "Hackathon", "value": "2 days" },
+    "meals": { "label": "Meals Provided", "value": "5+" }
+  },
+
+  "workshop": {
+    "day1": {
+      "date": "2025.11.18 (Tue)",
+      "title": "Workshop Day 1",
+      "events": {
+        "1": {
+          "title": "Opening Ceremony",
+          "desc": "Prof. Yonuk Chong",
+          "icon": "🎤"
+        },
+        "2": { "title": "Kickoff", "desc": "Chaeeun Seok", "icon": "🚀" },
+        "3": {
+          "title": "Ion-Trap Quantum Computer",
+          "desc": "Prof. Junki Kim",
+          "icon": "⚛️"
+        },
+        "4": {
+          "title": "Quantum Computer Architecture",
+          "desc": "Prof. Dongmoon Min",
+          "icon": "🏗️"
+        },
+        "5": {
+          "title": "Quantum Error Correction",
+          "desc": "Prof. Seok-Hyoung Lee",
+          "icon": "🔧"
+        }
+      }
+    },
+    "day2": {
+      "date": "2025.11.19 (Wed)",
+      "title": "Workshop Day 2",
+      "events": {
+        "1": {
+          "title": "Spin Qubits & Quantum Communication",
+          "desc": "Prof. Hosung Seo",
+          "icon": "🌀"
+        },
+        "2": {
+          "title": "Quantum Algorithms",
+          "desc": "Prof. Jung Hoon Han",
+          "icon": "📐"
+        },
+        "3": {
+          "title": "Quantum Chemistry Algorithms",
+          "desc": "Prof. Chang Woo Myung",
+          "icon": "⚗️"
+        },
+        "4": {
+          "title": "Superconducting Quantum Computer",
+          "desc": "Prof. Yonuk Chong",
+          "icon": "❄️"
+        }
+      }
+    },
+    "day3": {
+      "date": "2025.11.20 (Thu)",
+      "title": "Workshop Day 3 & Hackathon Start",
+      "events": {
+        "1": {
+          "title": "IBM & Qiskit 101",
+          "desc": "Young Jip Kim (Samsung Hwaseong Chemistry Bldg. 2F)",
+          "icon": "💻"
+        }
+      }
+    },
+    "notes": {
+      "title": "Important Notes",
+      "items": {
+        "1": "Each lecture lasts approximately 1 hour.",
+        "2": "Workshop Day 3 is the same day as the hackathon kickoff.",
+        "3": "Please make active use of Q&A sessions."
+      }
     }
   },
 
@@ -28,24 +121,45 @@
     "day1": {
       "title": "Hackathon Day 1",
       "events": {
-        "1": { "title": "Hackathon Orientation", "desc": "Problem introduction, submission and presentation guidelines" },
-        "2": { "title": "Hackathon Session",    "desc": "Team-based problem solving begins" },
-        "3": { "title": "Dinner",                "desc": "Boxed meal provided" },
-        "4": { "title": "Hackathon Session",     "desc": "Focused development time" }
+        "1": {
+          "title": "Hackathon Orientation",
+          "desc": "Problem introduction, submission and presentation guidelines"
+        },
+        "2": {
+          "title": "Hackathon Session",
+          "desc": "Team-based problem solving begins"
+        },
+        "3": { "title": "Dinner", "desc": "Boxed meal provided" },
+        "4": {
+          "title": "Hackathon Session",
+          "desc": "Focused development time"
+        }
       }
     },
     "day2": {
       "title": "Hackathon Day 2 & Awards",
       "events": {
-        "1": { "title": "Hackathon Session", "desc": "Final touches and wrap-up" },
-        "2": { "title": "Lunch Break",       "desc": "Lunch box provided" },
-        "3": { "title": "Presentations",     "desc": "First-come-first-served presentation order with bonus points" },
+        "1": {
+          "title": "Hackathon Session",
+          "desc": "Final touches and wrap-up"
+        },
+        "2": { "title": "Lunch Break", "desc": "Lunch box provided" },
+        "3": {
+          "title": "Presentations",
+          "desc": "First-come-first-served presentation order with bonus points"
+        },
         "4": {
           "title": "Judging & Networking",
           "desc": "During judging, participants can network; light refreshments provided.\nJudges: 정연욱 교수, 김준기 교수, 명창우 교수, 김영집 연사"
         },
-        "5": { "title": "Awards Ceremony",   "desc": "Awards for outstanding teams" },
-        "6": { "title": "Dinner Reception",  "desc": "Catered meal and networking" }
+        "5": {
+          "title": "Awards Ceremony",
+          "desc": "Awards for outstanding teams"
+        },
+        "6": {
+          "title": "Dinner Reception",
+          "desc": "Catered meal and networking"
+        }
       }
     },
     "notes": {

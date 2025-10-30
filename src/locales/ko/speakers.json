@@ -8,75 +8,120 @@
   ],
   "people": [
     {
-      "id": "chong-yonuk",
+      "id": "yonuk-chong",
       "name": "정연욱",
       "title": "교수",
       "organization": "성균관대학교 양자정보공학과",
       "category": "professor",
-      "expertise": ["초전도 큐비트", "양자 측정", "양자컴퓨팅"],
+      "expertise": [
+        "양자컴퓨팅",
+        "초전도 양자소자",
+        "조셉슨 회로",
+        "단일광자검출기"
+      ],
       "bio": "초전도 양자 하드웨어 및 양자 측정 기술을 중심으로 실용적 양자컴퓨터 구현을 연구합니다.",
-      "image": "/images/speakers/chong.jpg",
-      "email": ""
+      "image": "/images/speakers/yonuk-chong.jpg",
+      "email": "",
+      "website": "http://quantum.skku.edu/"
     },
     {
-      "id": "kim-joongi",
-      "name": "김준기",
-      "title": "교수",
-      "organization": "성균관대학교 양자정보공학과",
-      "category": "professor",
-      "expertise": ["이론 양자정보", "양자 알고리즘"],
-      "bio": "",
-      "image": "/images/speakers/kim-joongi.jpg"
-    },
-    {
-      "id": "min-dongmun",
-      "name": "민동문",
-      "title": "교수",
-      "organization": "성균관대학교 양자정보공학과",
-      "category": "professor",
-      "expertise": ["양자 마키텍처", "양자 제어"],
-      "bio": "",
-      "image": "/images/speakers/min-dongmun.jpg"
-    },
-    {
-      "id": "lee-seokhyung",
-      "name": "이석형",
-      "title": "교수",
-      "organization": "성균관대학교 양자정보공학과",
-      "category": "professor",
-      "expertise": ["양자 유체역학", "양자 재료"],
-      "bio": "",
-      "image": "/images/speakers/lee-seokhyung.jpg"
-    },
-    {
-      "id": "Jung Hoon Han",
+      "id": "junghoon-han",
       "name": "한정훈",
       "title": "교수",
       "organization": "성균관대학교 양자정보공학과",
       "category": "professor",
-      "expertise": ["양자 보이론", "양자 광학"],
+      "expertise": ["위상물질 이론", "양자정보 이론", "기계학습 이론"],
       "bio": "",
-      "image": "/images/speakers/han-junghoon.jpg"
+      "image": "/images/speakers/junghoon-han.jpg",
+      "website": "https://sites.google.com/view/timgroup"
     },
     {
-      "id": "myung-changwoo",
-      "name": "명창우",
-      "title": "교수",
+      "id": "junki-kim",
+      "name": "김준기",
+      "title": "부교수",
       "organization": "성균관대학교 양자정보공학과",
       "category": "professor",
-      "expertise": ["양자 화학", "알고리즘"],
+      "expertise": [
+        "이온 포획 기반 양자컴퓨팅",
+        "양자시뮬레이션",
+        "양자 광학 및 원자"
+      ],
       "bio": "",
-      "image": "/images/speakers/myung-changwoo.jpg"
+      "image": "/images/speakers/junki-kim.jpg",
+      "website": "https://iontrap.skku.edu/home"
     },
     {
-      "id": "kim-youngjip",
+      "id": "hosung-seo",
+      "name": "서호성",
+      "title": "부교수",
+      "organization": "성균관대학교 양자정보공학과",
+      "category": "professor",
+      "expertise": [
+        "양자정보 물질 및 소자",
+        "고체기반 스핀 큐비트: 다이아몬드 NV센터"
+      ],
+      "bio": "",
+      "image": "/images/speakers/hosung-seo.jpg",
+      "website": "https://sites.google.com/view/quantummaterials/home?authuser=0"
+    },
+
+    {
+      "id": "changwoo-myung",
+      "name": "명창우",
+      "title": "부교수",
+      "organization": "성균관대학교 양자정보공학과",
+      "category": "professor",
+      "expertise": [
+        "에너지 재료 이론",
+        "양자화학",
+        "과학을 위한 인공지능",
+        "양자컴퓨팅"
+      ],
+      "bio": "",
+      "image": "/images/speakers/changwoo-myung.avif",
+      "website": "https://www.myung.skku.edu/"
+    },
+    {
+      "id": "dongmoon-min",
+      "name": "민동문",
+      "title": "조교수",
+      "organization": "성균관대학교 양자정보공학과",
+      "category": "professor",
+      "expertise": [
+        "극저온/양자 컴퓨터 시스템",
+        "CPU/서버/데이터센터 설계",
+        "시스템 모델링"
+      ],
+      "bio": "",
+      "image": "/images/speakers/dongmoon-min.jpg",
+      "website": "https://archlab.skku.edu/"
+    },
+    {
+      "id": "seokhyung-lee",
+      "name": "이석형",
+      "title": "조교수",
+      "organization": "성균관대학교 양자정보공학과",
+      "category": "professor",
+      "expertise": [
+        "양자컴퓨팅 이론",
+        "양자정보 이론",
+        "양자오류정정",
+        "광자기반 양자컴퓨팅"
+      ],
+      "bio": "",
+      "image": "/images/speakers/seokhyung-lee.jpeg",
+      "website": "https://seokhyung-lee.github.io/"
+    },
+    {
+      "id": "youngjip-kim",
       "name": "김영집",
       "title": "연사",
       "organization": "IBM Quantum",
       "category": "ibm",
       "expertise": ["Qiskit", "양자 교육"],
       "bio": "IBM Quantum의 교육·커뮤니티 활동과 Qiskit 기반 실습을 이끕니다.",
-      "image": "/images/speakers/kim-youngjip.jpg"
+      "image": "/images/speakers/youngjip-kim.jpeg",
+      "website": "https://www.linkedin.com/in/young-jip-kim-a3660b118/"
     }
   ]
 }

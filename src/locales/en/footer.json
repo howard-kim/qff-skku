@@ -2,31 +2,72 @@
   "about": "Join us at Sungkyunkwan University for an immersive quantum computing experience. Learn, build, and connect with the quantum community.",
   "quickTitle": "Quick Links",
   "quickLinks": [
-    { "label": "About Us",   "to": "/aboutus" },
-    { "label": "Schedule",   "to": "/schedule" },
-    { "label": "Speakers",   "to": "/speakers" },
+    { "label": "About Us", "to": "/aboutus" },
+    { "label": "Schedule", "to": "/schedule" },
+    { "label": "Speakers", "to": "/speakers" },
     { "label": "Organizers", "to": "/organizers" },
-    { "label": "Sponsors",   "to": "/sponsors" },
-    { "label": "FAQ",        "to": "/faq" }
+    { "label": "Sponsors", "to": "/sponsors" },
+    { "label": "FAQ", "to": "/faq" }
   ],
   "contact": {
     "title": "Contact Us",
-    "email": "squirl.skku@gmail.com",
+    "email": "docong0120@skku.edu",
     "address": "Natural Sciences Campus, SKKU"
   },
   "partnersTitle": "Our Partners & Sponsors",
   "partners": [
-    { "name": "SKKU", "logo": "/images/logos/skku.png", "url": "https://www.skku.edu/", "height": "h-11" },
-    { "name": "Quantum Information Research Support Center", "logo": "/images/logos/qirsc.png", "url": "https://qcenter.kr/", "height": "h-10" },
-    { "name": "National Center for Excellence in Software", "logo": "/images/logos/nces.png", "url": "https://skb.skku.edu/swuniv/index.do", "height": "h-11" },
-    { "name": "Superconducting Quantum Information Research Lab", "logo": "/images/logos/squirl.png", "url": "http://quantum.skku.edu/", "height": "h-11" },
-    { "name": "IBM Quantum", "logo": "/images/logos/ibm_quantum.png", "url": "https://www.ibm.com/quantum", "height": "h-8" }
+    {
+      "name": "SKKU",
+      "logo": "/images/logos/skku.png",
+      "url": "https://www.skku.edu/",
+      "height": "h-11"
+    },
+    {
+      "name": "Quantum Information Research Support Center",
+      "logo": "/images/logos/qirsc.png",
+      "url": "https://qcenter.kr/",
+      "height": "h-10"
+    },
+    {
+      "name": "National Center for Excellence in Software",
+      "logo": "/images/logos/nces.png",
+      "url": "https://skb.skku.edu/swuniv/index.do",
+      "height": "h-11"
+    },
+    {
+      "name": "Superconducting Quantum Information Research Lab",
+      "logo": "/images/logos/squirl.png",
+      "url": "http://quantum.skku.edu/",
+      "height": "h-11"
+    },
+    {
+      "name": "IBM Quantum",
+      "logo": "/images/logos/ibm_quantum.png",
+      "url": "https://www.ibm.com/quantum",
+      "height": "h-8"
+    }
   ],
   "social": [
-    { "name": "LinkedIn",  "url": "https://www.linkedin.com/company/skkai-sungkyunkwan-ai", "icon": "<svg class='w-5 h-5' fill='currentColor' viewBox='0 0 24 24'><path d='M19 0h-14C2.239 0 0 2.239 0 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5V5c0-2.761-2.238-5-5-5zM8 19H5V8h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764S5.534 3.204 6.5 3.204 8.25 3.994 8.25 4.968 7.466 6.732 6.5 6.732zM20 19h-3v-5.604c0-3.368-4-3.113-4 0V19h-3V8h3v1.765C14.396 7.179 20 6.988 20 12.241V19z'/></svg>" },
-    { "name": "Instagram", "url": "https://www.instagram.com/skkai_official/", "icon": "<svg class='w-5 h-5' fill='currentColor' viewBox='0 0 24 24'><path d='M7.03.084c-1.277.06-2.149.264-2.911.563C3.33.954 2.66 1.366 1.995 2.034. ... (중략 없이 그대로 사용 가능) ...' /></svg>" },
-    { "name": "Notion",    "url": "https://skku-tnt.notion.site/SKKAI-2538feafccd08020a2fcc3aad3bb33fb?pvs=74", "icon": "<svg class='w-5 h-5' fill='currentColor' viewBox='0 0 24 24'><path d='M4.459 4.208c.746.606...'/></svg>" },
-    { "name": "Email",     "url": "mailto:skkutnt@gmail.com", "icon": "<svg class='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z'/></svg>" }
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/company/skkai-sungkyunkwan-ai",
+      "icon": "<svg class='w-5 h-5' fill='currentColor' viewBox='0 0 24 24'><path d='M19 0h-14C2.239 0 0 2.239 0 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5V5c0-2.761-2.238-5-5-5zM8 19H5V8h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764S5.534 3.204 6.5 3.204 8.25 3.994 8.25 4.968 7.466 6.732 6.5 6.732zM20 19h-3v-5.604c0-3.368-4-3.113-4 0V19h-3V8h3v1.765C14.396 7.179 20 6.988 20 12.241V19z'/></svg>"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/skkai_official/",
+      "icon": "<svg class='w-5 h-5' fill='currentColor' viewBox='0 0 24 24'><path d='M7.03.084c-1.277.06-2.149.264-2.911.563C3.33.954 2.66 1.366 1.995 2.034. ... (중략 없이 그대로 사용 가능) ...' /></svg>"
+    },
+    {
+      "name": "Notion",
+      "url": "https://skku-tnt.notion.site/SKKAI-2538feafccd08020a2fcc3aad3bb33fb?pvs=74",
+      "icon": "<svg class='w-5 h-5' fill='currentColor' viewBox='0 0 24 24'><path d='M4.459 4.208c.746.606...'/></svg>"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:skkutnt@gmail.com",
+      "icon": "<svg class='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z'/></svg>"
+    }
   ],
   "bottom": {
     "copy": "Qiskit Fall Fest @ SKKU. All rights reserved.",
