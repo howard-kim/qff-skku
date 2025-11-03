@@ -19,6 +19,8 @@ import enFooter from "../locales/en/footer.json";
 import koFooter from "../locales/ko/footer.json";
 import enQff from "../locales/en/qff.json";
 import koQff from "../locales/ko/qff.json";
+import enHero from "../locales/en/hero.json";
+import koHero from "../locales/ko/hero.json";
 import enHero2 from "../locales/en/hero2.json";
 import koHero2 from "../locales/ko/hero2.json";
 import enSpeakers from "../locales/en/speakers.json";
@@ -29,12 +31,12 @@ i18n
   .use(initReactI18next)
   .init({
     resources: {
-      en: { common: enCommon, skkai: enSkKAI, schedule: enSchedule, organizers: enOrganizers, sponsors: enSponsors, faq: enFaq, footer: enFooter, qff: enQff, hero2: enHero2, speakers: enSpeakers },
-      ko: { common: koCommon, skkai: koSkKAI, schedule: koSchedule, organizers: koOrganizers, sponsors: koSponsors, faq: koFaq, footer: koFooter, qff: koQff, hero2: koHero2, speakers: koSpeakers },
+      en: { common: enCommon, skkai: enSkKAI, schedule: enSchedule, organizers: enOrganizers, sponsors: enSponsors, faq: enFaq, footer: enFooter, qff: enQff, hero2: enHero2, speakers: enSpeakers, hero: enHero },
+      ko: { common: koCommon, skkai: koSkKAI, schedule: koSchedule, organizers: koOrganizers, sponsors: koSponsors, faq: koFaq, footer: koFooter, qff: koQff, hero2: koHero2, speakers: koSpeakers, hero: koHero },
     },
     fallbackLng: "ko",
     supportedLngs: ["en", "ko"],
-    ns: ["common", "skkai", "schedule", "organizers", "sponsors", "faq", "footer", "qff", "hero2", "speakers"],
+    ns: ["common", "skkai", "schedule", "organizers", "sponsors", "faq", "footer", "qff", "hero2", "speakers", "hero"],
     defaultNS: "common",
     interpolation: { escapeValue: false },
     detection: {

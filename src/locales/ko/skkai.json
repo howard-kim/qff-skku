@@ -3,7 +3,7 @@
   "brand": "SKK:AI",
   "headline": "Sungkyunkwan University Artificial Intelligence Student Association",
   "subheadline": "Sungkyunkwan University Artificial Intelligence Student Association",
-  "greeting": "안녕하세요, 성균관대학교를 대표하는 학생 주도 단체 <bold>성균관 인공지능 학회 SKKAI</bold> 입니다. 저희는 다양한 전공의 학생들이 모여 학제 간 융합을 중시하며, 적극적인 의견 공유를 통해 함께 성장하고 있습니다.",
+  "greeting": "안녕하세요, 성균관대학교를 대표하는 학생 주도 단체 <bold>성균관 인공지능 학회 SKKAI</bold> 입니다. 다양한 전공의 학생들이 모여 학문 간 융합을 이루고 함께 성장하는 것을 목표로 하는 학술 공동체입니다",
   "journey": {
     "title": "학회의 역사",
     "body": "데이터 분석 동아리 TNT에서 리브랜딩하여 2025년 SKKAI로 새롭게 출범했습니다. 자연과학캠퍼스와 인문사회과학캠퍼스, 2개의 캠퍼스의 학생들이 모여 함께 활동하고 있습니다."
@@ -28,7 +28,7 @@
       { "number": "50+", "label": "활동 회원" },
       { "number": "17", "label": "전공 구성" },
       { "number": "2", "label": "캠퍼스" },
-      { "number": "2025", "label": "명품 스터디 클럽" }
+      { "number": "2025", "label": "성균 명품 스터디 클럽" }
     ],
     "quote": "이 가치들을 바탕으로 SKKAI는 학문적 성취와 사회적 가치를 함께 만들어갑니다."
   }

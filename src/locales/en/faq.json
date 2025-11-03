@@ -17,12 +17,12 @@
     {
       "category": "general",
       "question": "Who can participate in the event?",
-      "answer": "The event is open to all SKKU students and students from other universities interested in quantum computing. No prior quantum computing experience is required, though basic programming knowledge (Python) is helpful. We welcome students from all majors - computer science, physics, mathematics, engineering, and beyond!"
+      "answer": "The event is open to SKKU students as well as high school students and students from other universities who are interested in quantum computing."
     },
     {
       "category": "registration",
       "question": "How do I register for the event?",
-      "answer": "Registration is done through our online form (link available on the main page). Registration is free but seats are limited to 80 participants. We recommend registering early as spots fill up quickly."
+      "answer": "Register via the online application form on the main page. If you sign in with Google, you can edit your application later."
     },
     {
       "category": "registration",
@@ -42,7 +42,7 @@
     {
       "category": "technical",
       "question": "Do I need to bring my own laptop?",
-      "answer": "Yes, participants should bring their own laptops. Make sure to have Python (3.8 or higher) installed along with Jupyter Notebook or JupyterLab. We'll provide detailed setup instructions via email before the event. WiFi will be available at the venue."
+      "answer": "Yes. Please bring a laptop with Python (3.11 or higher) installed, along with Jupyter Notebook or JupyterLab. We will email setup instructions before the event."
     },
     {
       "category": "technical",
@@ -52,37 +52,37 @@
     {
       "category": "logistics",
       "question": "Where will the event be held?",
-      "answer": "The event will be held at Sungkyunkwan University's Natural Sciences Campus in Suwon. Specific building and room information will be shared with registered participants. The venue is easily accessible by public transportation."
+      "answer": "The event will be held at Sungkyunkwan University's Natural Sciences Campus (Suwon), Research Complex I, 8F Multipurpose Hall. Specific building/room details will be shared with registered participants."
     },
     {
       "category": "logistics",
       "question": "Will meals be provided?",
-      "answer": "Yes! We'll provide lunch boxes during workshop days and both hackathon days. Additionally, there will be a special catering dinner on the final day (Nov 21) during the networking session. Snacks and refreshments will be available throughout the event."
+      "answer": "Yes. Dinner is provided on the first hackathon day and lunch on the second day. There will also be a special catered dinner on the final day (Nov 21) during the networking session, plus snacks and refreshments throughout."
     },
     {
       "category": "logistics",
       "question": "Is accommodation provided?",
-      "answer": "Accommodation is not provided by the organizers. However, we can share information about nearby hotels and guesthouses for participants coming from other cities. Suwon has many affordable accommodation options near the campus."
+      "answer": "Accommodation is not provided. However, we can share information about nearby hotels and guesthouses for participants coming from other regions."
     },
     {
       "category": "general",
       "question": "Will certificates be provided?",
-      "answer": "Yes! All participants who complete the program will receive an official certificate of participation from SKKU and IBM Quantum. Hackathon winners will receive special recognition certificates. These certificates can be valuable additions to your portfolio."
+      "answer": "Participants who complete four or more faculty workshop sessions will receive a participation certificate issued by IBM Quantum. All hackathon teams receive certificates, and separate prizes are awarded."
     },
     {
       "category": "technical",
       "question": "Can I form my own team for the hackathon?",
-      "answer": "Teams can be formed before or during the event. Maximum team size is 4 members. If you don't have a team, don't worry! We'll have a team formation session on the first day of the hackathon where you can meet other participants and form teams based on interests and skills."
+      "answer": "Yes. You can form a team during registration. The maximum team size is 4. If you don't have a team, we will match participants into teams based on the application."
     },
     {
       "category": "general",
       "question": "Can international students participate?",
-      "answer": "Absolutely! International students are welcome and encouraged to participate. The primary language of instruction will be English, with Korean support available when needed. This is a great opportunity to connect with both local and international quantum computing enthusiasts."
+      "answer": "Absolutely. International students are welcome. The primary language will be Korean, with English support available as needed."
     }
   ],
   "help": {
     "title": "Still Have Questions?",
-    "body": "Can't find the answer you're looking for? Our team is here to help!",
+    "body": "If you have additional questions, please reach out using the options below!",
     "email": "Email Us"
   },
   "quick": {

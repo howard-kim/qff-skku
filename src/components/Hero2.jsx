@@ -4,8 +4,6 @@ import { useTranslation, Trans } from "react-i18next";
 function Hero2() {
   const { t } = useTranslation("hero2");
 
-  // 텍스트(타이틀/설명)는 i18n에서 읽고,
-  // 색상/이미지 같은 스타일 정보는 여기에서 유지
   const visual = [
     {
       image: "/images/ibm_quantum/Illustration/Crops/Crop_Future.png",

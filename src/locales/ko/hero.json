@@ -1,11 +1,11 @@
 {
   "badge": "IBM Quantum Network 행사",
   "title": "Qiskit Fall Fest 2025",
-  "host": { "prefix": "주최", "name": "성균관대학교" },
+  "host": { "prefix": "", "name": "성균관대학교" },
   "details": {
     "date": "2025년 11월 18-21일",
     "place": "성균관대학교 자연과학캠퍼스",
-    "tagline": "4일간의 양자"
+    "tagline": "4일간의 양자 여정"
   },
   "countdown": {
     "targetISO": "2025-11-18T13:00:00",
@@ -24,7 +24,7 @@
   },
   "limited": "선착순 마감!",
   "stats": [
-    { "number": "80", "label": "참가자" },
+    { "number": "50+", "label": "참가자" },
     { "number": "10+", "label": "워크숍" },
     { "number": "10+", "label": "연사" },
     { "number": "48h", "label": "해커톤" }

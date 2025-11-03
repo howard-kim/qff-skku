@@ -72,9 +72,9 @@
   "bottom": {
     "copy": "Qiskit Fall Fest @ SKKU. All rights reserved.",
     "links": [
-      { "label": "Privacy Policy", "href": "#" },
-      { "label": "Terms of Service", "href": "#" },
-      { "label": "Code of Conduct", "href": "#" }
+      { "label": "Privacy Policy"},
+      { "label": "Terms of Service"},
+      { "label": "Code of Conduct"}
     ]
   }
 }

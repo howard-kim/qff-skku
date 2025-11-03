@@ -24,7 +24,7 @@
   },
   "limited": "Limited Seats!",
   "stats": [
-    { "number": "80", "label": "Participants" },
+    { "number": "50+", "label": "Participants" },
     { "number": "10+", "label": "Workshops" },
     { "number": "10+", "label": "Speakers" },
     { "number": "48h", "label": "Hackathon" }
