@@ -8,10 +8,16 @@
   "members": [
     {
       "id": 1,
-      "name": "김동완 / 총괄 리드",
-      "title": "학부 연구원",
+      "name": "김동완 / 총괄 책임",
+      "title": "학부 연구생",
       "organization": "성균관대학교",
-      "expertise": ["양자컴퓨팅", "Qiskit"],
+      "expertise": [
+        "양자컴퓨팅",
+        "초전도체양자컴퓨터",
+        "소프트웨어 개발",
+        "머신러닝",
+        "요리"
+      ],
       "bio": "Qiskit Fall Fest SKKU 2025 총괄 리더이자 SQuIRL QPU 클라우드 플랫폼 개발자.",
       "image": "/images/organizers/skkai/dongwan.jpg",
       "email": "docong0120@g.skku.edu",
@@ -97,9 +103,9 @@
     {
       "id": 9,
       "name": "윤지호",
-      "title": "학부 연구원",
-      "organization": "성균관대학교",
-      "expertise": ["양자 프로그래밍"],
+      "title": "SKKAI 부학회장 (대외협력)",
+      "organization": "성균관대학교 의예과 24학번",
+      "expertise": ["우주의학", "구조생물학", "AI"],
       "bio": "Qiskit 튜토리얼 제작 및 신입 멘토링에 집중.",
       "image": "/images/organizers/skkai/jiho.jpeg",
       "email": "yunjoe@g.skku.edu",
