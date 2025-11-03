@@ -1,5 +1,5 @@
 {
-  "badge": "SKKAI 참여 학회원",
+  "badge": "SKK:AI 참여 학회원",
   "title": "운영진 소개",
   "subtitle": "",
   "badgeLogo": "SKK:AI",
@@ -9,8 +9,8 @@
     {
       "id": 1,
       "name": "김동완 / 총괄 책임",
-      "title": "학부 연구생",
-      "organization": "성균관대학교",
+      "title": "SKK:AI 양자 팀리더",
+      "organization": "성균관대학교 소프트웨어학과",
       "expertise": [
         "양자컴퓨팅",
         "초전도체양자컴퓨터",
@@ -26,10 +26,10 @@
     {
       "id": 2,
       "name": "서영호",
-      "title": "학부 연구원",
-      "organization": "성균관대학교",
-      "expertise": ["양자컴퓨팅"],
-      "bio": "SQuAI 핵심 멤버로, 적응형 VQE 전략 연구에 기여.",
+      "title": "SKK:AI 양자A 팀",
+      "organization": "성균관대학교 소프트웨어학과",
+      "expertise": ["양자 어플리케이션", "양자 컴퓨터 시스템 설계", "소프트웨어 개발"],
+      "bio": "QFF 해커톤 및 강의 제작 | 민동문 교수님 Archlab 학부연구생",
       "image": "/images/organizers/skkai/youngho.jpeg",
       "email": "syhwlgns@g.skku.edu",
       "linkedin": "https://www.linkedin.com/in/youngho-seo"
@@ -37,10 +37,10 @@
     {
       "id": 3,
       "name": "권주원",
-      "title": "학부 연구원",
-      "organization": "성균관대학교",
-      "expertise": ["양자컴퓨팅"],
-      "bio": "VQE 구현과 시뮬레이션 테스트에 집중.",
+      "title": "SKK:AI 양자A 팀",
+      "organization": "성균관대학교 물리학과",
+      "expertise": ["2차원 전자 수송 측정", "양자 소자 공정", "양자 머신러닝"],
+      "bio": "QFF 해커톤 및 강의 제작 | 박준영 교수님 2DQH 연구단 학부연구생",
       "image": "/images/organizers/skkai/juwon.jpeg",
       "email": "wndnjs0416@skku.edu",
       "linkedin": "https://www.linkedin.com/in/주원-권-7845aa354"
@@ -48,10 +48,10 @@
     {
       "id": 4,
       "name": "임세준",
-      "title": "학부 연구원",
-      "organization": "성균관대학교",
-      "expertise": ["양자 이론"],
-      "bio": "이론적 기반과 활용 사례 검증을 지원.",
+      "title": "SKK:AI 양자B 팀리더",
+      "organization": "성균관대학교 물리학과",
+      "expertise": ["입자물리학", "교양물리학"],
+      "bio": "QFF 사무 지원 | CERN 공동 연구 그룹 소속.",
       "image": "/images/organizers/skkai/sejun.jpeg",
       "email": "daniel2313@g.skku.edu",
       "linkedin": "https://www.linkedin.com/in/sejunyim"
@@ -59,10 +59,10 @@
     {
       "id": 5,
       "name": "박혜선",
-      "title": "학부 연구원",
-      "organization": "성균관대학교",
+      "title": "SKK:AI 양자B 팀",
+      "organization": "성균관대학교 시스템경영학과",
       "expertise": ["양자 알고리즘"],
-      "bio": "하드웨어 효율적 VQE와 최적화에 관심.",
+      "bio": "QFF 홍보 지원",
       "image": "/images/organizers/skkai/hyeseon.jpeg",
       "email": "0147qkr@g.skku.edu",
       "linkedin": ""
@@ -70,10 +70,10 @@
     {
       "id": 6,
       "name": "전병현",
-      "title": "학부 연구원",
-      "organization": "성균관대학교",
-      "expertise": ["양자 정보"],
-      "bio": "서페이스 코드와 오류 저감 기법에 관심.",
+      "title": "SKK:AI 양자B 팀",
+      "organization": "성균관대학교 소프트웨어학과",
+      "expertise": ["다리 쭉 뻗기", "삼겹살 먹기"],
+      "bio": "QFF 사무 지원 | 소프트웨어학과 홍보대사 알리미 15기 회장",
       "image": "/images/organizers/skkai/byunghyun.png",
       "email": "jbhskku@skku.edu",
       "linkedin": "https://linkedin.com/in/병현-전-3b8921373"
@@ -81,10 +81,10 @@
     {
       "id": 7,
       "name": "석채은",
-      "title": "학부 연구원",
-      "organization": "성균관대학교",
-      "expertise": ["양자컴퓨팅"],
-      "bio": "양자 입문자를 위한 교육·아웃리치 활동 지원.",
+      "title": "SKK:AI 학회장",
+      "organization": "성균관대학교 기계공학과",
+      "expertise": ["임베디드 시스템", "자율주행"],
+      "bio": "QFF 홍보 지원 | SKK:AI 학회장 | SKK:AI Physical AI 팀리더",
       "image": "/images/organizers/skkai/chaeeun.jpeg",
       "email": "tjrcodms87@g.skku.edu",
       "linkedin": "https://www.linkedin.com/in/chae-eun-seok-323773320"
@@ -92,10 +92,10 @@
     {
       "id": 8,
       "name": "김하종",
-      "title": "학부 연구원",
-      "organization": "성균관대학교",
-      "expertise": ["양자 머신러닝"],
-      "bio": "ED 기반 회로 설계 방법론에 기여.",
+      "title": "SKK:AI 부학회장",
+      "organization": "성균관대학교 소프트웨어학과",
+      "expertise": ["컴퓨터 비전", "세그멘테이션"],
+      "bio": "QFF IT 지원 | SKK:AI 부학회장 (인사총무) | 칸 무함마드 교수님 V-MIND 연구실 산학협력학생",
       "image": "/images/organizers/skkai/hajong.jpeg",
       "email": "whoami125@g.skku.edu",
       "linkedin": "https://www.linkedin.com/in/hajong-kim-437057260/"
@@ -103,10 +103,10 @@
     {
       "id": 9,
       "name": "윤지호",
-      "title": "SKKAI 부학회장 (대외협력)",
-      "organization": "성균관대학교 의예과 24학번",
+      "title": "SKK:AI 부학회장",
+      "organization": "성균관대학교 의예과",
       "expertise": ["우주의학", "구조생물학", "AI"],
-      "bio": "Qiskit 튜토리얼 제작 및 신입 멘토링에 집중.",
+      "bio": "QFF 홍보 지원 | SKK:AI 부학회장 (대외협력) | 김경규 교수님 구조생물학 연구실 인턴 (2024.08~)",
       "image": "/images/organizers/skkai/jiho.jpeg",
       "email": "yunjoe@g.skku.edu",
       "linkedin": "https://www.linkedin.com/in/jihoyun/"
@@ -114,10 +114,10 @@
     {
       "id": 10,
       "name": "마리아",
-      "title": "학부 연구원",
-      "organization": "성균관대학교",
-      "expertise": ["양자 회로 설계"],
-      "bio": "Qiskit 회로 작성과 시각화에 참여.",
+      "title": "SKK:AI 딥러닝 팀",
+      "organization": "성균관대학교 컴퓨터교육학과",
+      "expertise": ["딥러닝"],
+      "bio": "QFF 사무 지원",
       "image": "/images/organizers/skkai/ria.jpeg",
       "email": "lillri@g.skku.edu",
       "linkedin": "https://www.linkedin.com/in/Riah-Ma"

@@ -13,11 +13,7 @@
       "title": "Professor",
       "organization": "Dept. of Quantum Information Engineering, SKKU",
       "category": "professor",
-      "expertise": [
-        "Superconducting Qubits",
-        "Quantum Measurement",
-        "Quantum Computing"
-      ],
+      "expertise": ["Quantum computing", "Superconducting Qubits", "Josephson Circuit", "Single-photon Detector"],
       "bio": "Research on practical quantum computers focusing on superconducting hardware and measurement.",
       "image": "/images/speakers/yonuk-chong.jpg",
       "website": ""
@@ -28,7 +24,7 @@
       "title": "Professor",
       "organization": "Dept. of Quantum Information Engineering, SKKU",
       "category": "professor",
-      "expertise": ["Theoretical Quantum Information", "Quantum Algorithms"],
+      "expertise": ["Ion-Trap–Based Quantum Computing", "Quantum Simulation", "Quantum Optics and Atomic Physics"],
       "bio": "",
       "image": "/images/speakers/junki-kim.jpg",
       "website": ""
@@ -39,7 +35,7 @@
       "title": "Professor",
       "organization": "Dept. of Quantum Information Engineering, SKKU",
       "category": "professor",
-      "expertise": ["Theoretical Quantum Information", "Quantum Algorithms"],
+      "expertise": ["Quantum Information Materials and Devices", "Solid-State Spin Qubits: Diamond NV Centers"],
       "bio": "",
       "image": "/images/speakers/hosung-seo.jpg",
       "website": ""
@@ -50,7 +46,7 @@
       "title": "Professor",
       "organization": "Dept. of Software, SKKU",
       "category": "professor",
-      "expertise": ["Quantum Architecture", "Quantum Control"],
+      "expertise": ["Cryogenic/Quantum Computer Systems", "CPU/Server/Data Center Architecture", "System Modeling"],
       "bio": "",
       "image": "/images/speakers/dongmoon-min.jpg",
       "website": ""
@@ -61,7 +57,7 @@
       "title": "Professor",
       "organization": "Dept. of Quantum Information Engineering, SKKU",
       "category": "professor",
-      "expertise": ["Quantum Hydrodynamics", "Quantum Materials"],
+      "expertise": ["Quantum Computing Theory", "Theoretical Quantum Information", "Quantum Error Correction", "Photonics-Based Quantum Computing"],
       "bio": "",
       "image": "/images/speakers/seokhyung-lee.jpeg",
       "website": ""
@@ -72,7 +68,7 @@
       "title": "Professor",
       "organization": "Dept. of Quantum Information Engineering, SKKU",
       "category": "professor",
-      "expertise": ["Quantum Field Theory", "Quantum Optics"],
+      "expertise": ["Topological Materials Theory", "Theoretical Quantum Information", "Machine Learning Theory"],
       "bio": "",
       "image": "/images/speakers/junghoon-han.jpg",
       "website": ""
@@ -83,7 +79,7 @@
       "title": "Professor",
       "organization": "Dept. of Quantum Information Engineering, SKKU",
       "category": "professor",
-      "expertise": ["Quantum Chemistry", "Algorithms"],
+      "expertise": ["Energy Materials Theory", "Quantum Chemistry", "AI for Science", "Quantum Computing"],
       "bio": "",
       "image": "/images/speakers/changwoo-myung.avif",
       "website": ""

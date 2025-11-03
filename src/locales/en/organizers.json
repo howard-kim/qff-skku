@@ -9,10 +9,16 @@
     {
       "id": 1,
       "name": "Dong-Wan Kim / Leader",
-      "title": "Undergraduate Researcher",
-      "organization": "Sungkyunkwan University",
-      "expertise": ["Quantum Computing", "Qiskit"],
-      "bio": "Leader of Qiskit Fall Fest SKKU 2025 and developer of SQuIRL QPU Cloud platform.",
+      "title": "SKK:AI Quantum Team Lead",
+      "organization": "Sungkyunkwan University, Department of Software",
+      "expertise": [
+        "Superconducting Quantum Computing",
+        "Quantum Computing",
+        "Software Development",
+        "Machine Learning",
+        "Cooking"
+      ],
+      "bio": "Lead of Qiskit Fall Fest SKKU 2025 and developer of the SQuIRL QPU Cloud platform.",
       "image": "/images/organizers/skkai/dongwan.jpg",
       "email": "docong0120@g.skku.edu",
       "linkedin": "https://www.linkedin.com/in/wannasleepofficial"
@@ -20,10 +26,10 @@
     {
       "id": 2,
       "name": "Young-Ho Seo",
-      "title": "Undergraduate Researcher",
-      "organization": "Sungkyunkwan University",
-      "expertise": ["Quantum Computing"],
-      "bio": "Core member of SQuAI and contributor to adaptive VQE strategy.",
+      "title": "SKK:AI Quantum Team A",
+      "organization": "Sungkyunkwan University, Department of Software",
+      "expertise": ["Quantum Applications", "Quantum Computer System Design", "Software Development"],
+      "bio": "Supports QFF hackathon and lectures | Undergraduate researcher at Prof. Dongmoon Min's ArchLab.",
       "image": "/images/organizers/skkai/youngho.jpeg",
       "email": "syhwlgns@g.skku.edu",
       "linkedin": "https://www.linkedin.com/in/youngho-seo"
@@ -31,10 +37,10 @@
     {
       "id": 3,
       "name": "Ju-Won Kwon",
-      "title": "Undergraduate Researcher",
-      "organization": "Sungkyunkwan University",
-      "expertise": ["Quantum Computing"],
-      "bio": "Focused on VQE implementation and simulation testing.",
+      "title": "SKK:AI Quantum Team A",
+      "organization": "Sungkyunkwan University, Department of Physics",
+      "expertise": ["2D Electron Transport Measurements", "Quantum Device Fabrication", "Quantum Machine Learning"],
+      "bio": "Supports QFF hackathon and lectures | Undergraduate researcher in Prof. Junyoung Park's 2DQH group.",
       "image": "/images/organizers/skkai/juwon.jpeg",
       "email": "wndnjs0416@skku.edu",
       "linkedin": "https://www.linkedin.com/in/주원-권-7845aa354"
@@ -42,10 +48,10 @@
     {
       "id": 4,
       "name": "Se-Jun Yim",
-      "title": "Undergraduate Researcher",
-      "organization": "Sungkyunkwan University",
-      "expertise": ["Quantum Theory"],
-      "bio": "Supports theoretical aspects and use case validation.",
+      "title": "SKK:AI Quantum Team B Lead",
+      "organization": "Sungkyunkwan University, Department of Physics",
+      "expertise": ["Particle Physics", "General Physics"],
+      "bio": "Supports QFF administration | Member of a CERN collaborative research group.",
       "image": "/images/organizers/skkai/sejun.jpeg",
       "email": "daniel2313@g.skku.edu",
       "linkedin": "https://www.linkedin.com/in/sejunyim"
@@ -53,10 +59,10 @@
     {
       "id": 5,
       "name": "Hye-Seon Park",
-      "title": "Undergraduate Researcher",
-      "organization": "Sungkyunkwan University",
+      "title": "SKK:AI Quantum Team B",
+      "organization": "Sungkyunkwan University, Department of Systems Management",
       "expertise": ["Quantum Algorithms"],
-      "bio": "Interested in hardware-efficient VQE and optimization.",
+      "bio": "Supports QFF promotion.",
       "image": "/images/organizers/skkai/hyeseon.jpeg",
       "email": "0147qkr@g.skku.edu",
       "linkedin": ""
@@ -64,10 +70,10 @@
     {
       "id": 6,
       "name": "Byung-Hyun Jun",
-      "title": "Undergraduate Researcher",
-      "organization": "Sungkyunkwan University",
-      "expertise": ["Quantum Information"],
-      "bio": "Interested in surface codes and error mitigation.",
+      "title": "SKK:AI Quantum Team B",
+      "organization": "Sungkyunkwan University, Department of Software",
+      "expertise": ["Leg Stretching", "Professional at Eating Pork Belly"],
+      "bio": "Supports QFF administration | President, SKKU Software Department Ambassadors (Alimi 15th).",
       "image": "/images/organizers/skkai/byunghyun.png",
       "email": "jbhskku@skku.edu",
       "linkedin": "https://linkedin.com/in/병현-전-3b8921373"
@@ -75,10 +81,10 @@
     {
       "id": 7,
       "name": "Chae-eun Seok",
-      "title": "Undergraduate Researcher",
-      "organization": "Sungkyunkwan University",
-      "expertise": ["Quantum Computing"],
-      "bio": "Supporting education and outreach for quantum beginners.",
+      "title": "President of SKK:AI",
+      "organization": "Sungkyunkwan University, Department of Mechanical Engineering",
+      "expertise": ["Embedded Systems", "Autonomous Driving"],
+      "bio": "Supports QFF promotion | President of SKK:AI | SKK:AI Physical AI Team Lead",
       "image": "/images/organizers/skkai/chaeeun.jpeg",
       "email": "tjrcodms87@g.skku.edu",
       "linkedin": "https://www.linkedin.com/in/chae-eun-seok-323773320"
@@ -86,10 +92,10 @@
     {
       "id": 8,
       "name": "Hajong Kim",
-      "title": "Undergraduate Researcher",
-      "organization": "Sungkyunkwan University",
-      "expertise": ["Quantum Machine Learning"],
-      "bio": "Contributor to ED-based circuit design methodology.",
+       "title": "Vice President of SKK:AI",
+      "organization": "Sungkyunkwan University, Department of Software",
+      "expertise": ["Computer Vision", "Segmentation"],
+      "bio": "Supports QFF IT | Vice President of SKK:AI (People & Operations) | University-industry trainee at Prof. Muhammad Khan's V-MIND Lab.",
       "image": "/images/organizers/skkai/hajong.jpeg",
       "email": "whoami125@g.skku.edu",
       "linkedin": "https://www.linkedin.com/in/hajong-kim-437057260/"
@@ -97,10 +103,10 @@
     {
       "id": 9,
       "name": "Jiho Yun",
-      "title": "Undergraduate Researcher",
-      "organization": "Sungkyunkwan University",
-      "expertise": ["Quantum Programming"],
-      "bio": "Focused on Qiskit tutorials and mentoring new students.",
+      "title": "Vice President of SKK:AI",
+      "organization": "Sungkyunkwan University, Department of Medicine",
+      "expertise": ["Space Medicine", "Structural Biology", "AI"],
+      "bio": "Supports QFF promotion | Vice President of SKK:AI (External Relations) | Intern, Prof. Kyungkyu Kim's Structural Biology Lab (since 2024-08).",
       "image": "/images/organizers/skkai/jiho.jpeg",
       "email": "yunjoe@g.skku.edu",
       "linkedin": "https://www.linkedin.com/in/jihoyun/"
@@ -108,10 +114,10 @@
     {
       "id": 10,
       "name": "Riah Ma",
-      "title": "Undergraduate Researcher",
-      "organization": "Sungkyunkwan University",
-      "expertise": ["Quantum Circuit Design"],
-      "bio": "Involved in Qiskit circuit building and visualization.",
+      "title": "SKK:AI Deep Learning Team",
+      "organization": "Sungkyunkwan University, Department of Computer Education",
+      "expertise": ["Deep Learning", "AI"],
+      "bio": "Supports QFF administration.",
       "image": "/images/organizers/skkai/ria.jpeg",
       "email": "lillri@g.skku.edu",
       "linkedin": "https://www.linkedin.com/in/Riah-Ma"
