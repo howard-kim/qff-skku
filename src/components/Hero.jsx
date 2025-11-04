@@ -139,10 +139,10 @@ const Hero = () => {
         </div>
 
         {/* Hero Image */}
-        <div className="mt-16 relative group">
+        <div className="mt-16 relative group max-w-xl mx-auto">
           <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-blue-600 to-green-600 rounded-3xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500" />
           <div className="relative overflow-hidden rounded-3xl shadow-2xl border border-gray-100">
-            <img src="/images/ibm_quantum/Illustration/Full_Illustration.png" alt="Qiskit Fall Fest Visual" className="w-full transform transition-transform duration-700 group-hover:scale-105" />
+            <img src="/images/ibm_quantum/Illustration/skku_qff_post.png" alt="Qiskit Fall Fest Visual" className="w-full transform transition-transform duration-700 group-hover:scale-105" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
           </div>
           <div className="absolute -top-4 -right-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white px-4 py-2 rounded-full shadow-lg animate-bounce">
