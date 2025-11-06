@@ -78,6 +78,11 @@
       "category": "general",
       "question": "Can international students participate?",
       "answer": "Absolutely. International students are welcome. The primary language will be Korean, with English support available as needed."
+    },
+    {
+      "category": "general",
+      "question": "Will a participation confirmation be issued?",
+      "answer": "Yes. Attendance confirmation will be issued to all participants, separate from the certificate of completion."
     }
   ],
   "help": {
