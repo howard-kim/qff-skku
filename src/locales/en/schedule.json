@@ -145,12 +145,12 @@
         },
         "2": { "title": "Lunch Break", "desc": "Lunch box provided" },
         "3": {
-          "title": "Presentations",
-          "desc": "First-come-first-served presentation order with bonus points"
+          "title": "Preliminary Review & Networking",
+          "desc": "Networking among participants during the professors’ review session. Light snacks and beverages will be provided.\nJudges: Prof. Yeonwook Jung, Prof. Joongi Kim, Prof. Changwoo Myung, and Speaker Youngjib Kim."
         },
         "4": {
-          "title": "Judging & Networking",
-          "desc": "During judging, participants can network; light refreshments provided.\nJudges: 정연욱 교수, 김준기 교수, 명창우 교수, 김영집 연사"
+          "title": "Presentations by Top Teams from the Preliminary Review & Final Evaluation",
+          "desc": "Four selected teams will present, followed by the final selection of award-winning teams."
         },
         "5": {
           "title": "Awards Ceremony",

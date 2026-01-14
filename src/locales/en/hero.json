@@ -9,7 +9,7 @@
   },
   "countdown": {
     "targetISO": "2025-11-18T13:00:00",
-    "started": "Event Started! 🎉",
+    "started": "The event has successfully concluded.\nThank you to everyone who attended! 🎉",
     "days": "Days",
     "hours": "Hours",
     "minutes": "Minutes",

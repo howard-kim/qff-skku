@@ -10,7 +10,7 @@ const Hero = () => {
   const countdownRenderer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
       return (
-        <span className="text-2xl font-bold text-green-600">
+        <span className="text-2xl font-bold text-green-600 whitespace-pre-line">
           {t("countdown.started")}
         </span>
       );
